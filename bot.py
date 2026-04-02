@@ -119,6 +119,70 @@ def _parse_cards(card_list):
 
 
 # ══════════════════════════════════════════════════════════════
+#   DRAW DETECTOR
+#
+#   Detects incomplete hands that have strong equity going forward.
+#   Returns a bonus in [0.0, 0.25] to add to the raw strength score.
+#
+#   Only applied on flop and turn — draws have zero value on the river
+#   because no more cards will be dealt.
+#
+#   Bonuses (matching Gemini spec):
+#     Flush draw  (4 cards same suit)  → +0.15
+#     OESD        (4 consecutive ranks) → +0.10
+#     Both draws at once               → +0.25 (capped)
+#
+#   Two bugs fixed vs. the Gemini version:
+#     BUG 1 — suit extraction used the whole card string instead of card[1]
+#             e.g. "Ah" was treated as a suit, not 'h'
+#     BUG 2 — rank extraction used the whole card string instead of card[0]
+#             e.g. ranks.index("Ah") would crash; correct is ranks.index('A')
+# ══════════════════════════════════════════════════════════════
+
+def detect_draws(hole_cards: list, community_cards: list, street: str = "") -> float:
+    """
+    Return a draw-equity bonus to add to the raw strength score.
+    Returns 0.0 on the river or preflop (no future cards / no board yet).
+    """
+    if street == "river":
+        return 0.0
+    if len(community_cards) < 3:     # preflop: no board to evaluate
+        return 0.0
+
+    all_cards = hole_cards + community_cards
+    bonus = 0.0
+
+    # ── Flush Draw ────────────────────────────────────────────────
+    # Use card[1] for suit (e.g. 'h' from 'Ah') — BUG 1 fixed here
+    try:
+        suit_counts: dict = {}
+        for c in all_cards:
+            s = c[1]                  # ← correct: index 1 is the suit character
+            suit_counts[s] = suit_counts.get(s, 0) + 1
+        if any(v == 4 for v in suit_counts.values()):
+            bonus += 0.15             # one card away from a flush
+    except (IndexError, TypeError):
+        pass
+
+    # ── Open-Ended Straight Draw (OESD) ──────────────────────────
+    # Use card[0] for rank (e.g. 'A' from 'Ah') — BUG 2 fixed here
+    try:
+        rank_set = sorted(set(
+            _RANKS.index(c[0])        # ← correct: index 0 is the rank character
+            for c in all_cards
+            if len(c) >= 1 and c[0] in _RANKS
+        ))
+        for i in range(len(rank_set) - 3):
+            if rank_set[i + 3] - rank_set[i] == 3:   # 4 consecutive ranks
+                bonus += 0.10
+                break
+    except (IndexError, ValueError, TypeError):
+        pass
+
+    return bonus
+
+
+# ══════════════════════════════════════════════════════════════
 #   HAND EVALUATOR  (no external libraries)
 #
 #   _eval5  : score exactly 5 cards → float in [0, 9)
@@ -148,7 +212,7 @@ def _eval5(cards):
     if len(set(ranks)) == 5:
         if ranks[0] - ranks[4] == 4:
             is_straight, s_high = True, ranks[0]
-        elif set(ranks) == {12, 0, 1, 2, 3}:   # A-2-3-4-5 wheel (5-high)
+        elif set(ranks) == {12, 0, 1, 2, 3}:   # A-2-3-4-5 wheel
             is_straight, s_high = True, 3
 
     if is_straight and is_flush:
@@ -160,7 +224,7 @@ def _eval5(cards):
 
     if top_n == 4:                              # four of a kind
         return 7.0 + top_r / 13.0
-    if top_n == 3 and len(groups) >= 2 and groups[1][1] == 2:  # full house
+    if top_n == 3 and len(groups) >= 2 and groups[1][1] == 2:   # full house
         return 6.0 + top_r / 13.0
     if is_flush:
         return 5.0 + ranks[0] / 13.0
@@ -168,7 +232,7 @@ def _eval5(cards):
         return 4.0 + s_high / 13.0
     if top_n == 3:                              # three of a kind
         return 3.0 + top_r / 13.0
-    if top_n == 2 and len(groups) >= 2 and groups[1][1] == 2:  # two pair
+    if top_n == 2 and len(groups) >= 2 and groups[1][1] == 2:   # two pair
         return 2.0 + max(groups[0][0], groups[1][0]) / 13.0
     if top_n == 2:                              # one pair
         return 1.0 + top_r / 13.0
@@ -176,17 +240,14 @@ def _eval5(cards):
 
 
 def _best_score(cards):
-    """Best 5-card _eval5 score from a list of 5-7 (rank,suit) tuples."""
+    """Best 5-card _eval5 score from 5–7 (rank, suit) tuples."""
     if len(cards) < 5:
         return 0.0
     return max(_eval5(combo) for combo in _combinations(cards, 5))
 
 
 def _postflop_strength(hole_cards, community_cards):
-    """
-    Normalised [0,1] made-hand strength from hole + community cards.
-    Requires at least 5 combined cards (flop onwards).
-    """
+    """Normalised [0,1] made-hand strength from hole + community cards."""
     cards = _parse_cards(hole_cards) + _parse_cards(community_cards)
     if len(cards) < 5:
         return 0.0
@@ -195,66 +256,51 @@ def _postflop_strength(hole_cards, community_cards):
 
 # ══════════════════════════════════════════════════════════════
 #   PREFLOP HEURISTICS
-#   (used before any community cards are dealt)
-#
-#   Formula inspired by the Chen formula but simplified:
-#     - Pocket pairs scale from 22 (0.38) to AA (0.95)
-#     - Unpaired: base high-card value + suited bonus + broadway bonus
-#       minus a gap penalty for disconnected cards
 #
 #   Calibration checkpoints:
-#     AA  → 0.95   KK  → 0.90   QQ  → 0.85   JJ  → 0.80
-#     TT  → 0.75   88  → 0.67   55  → 0.52   22  → 0.38
-#     AKs → 0.62   AKo → 0.56   AQs → 0.58   KQs → 0.54
-#     T9s → 0.38   98o → 0.29   72o → 0.05
+#     AA  → 0.95   KK  → 0.90   QQ  → 0.85   22  → 0.38
+#     AKs → 0.62   AKo → 0.56   T9s → 0.42   72o → 0.07
 # ══════════════════════════════════════════════════════════════
 
 def _preflop_strength(hole_cards):
     """Return a [0,1] preflop strength heuristic for the two hole cards."""
     cards = _parse_cards(hole_cards)
     if len(cards) < 2:
-        return 0.20   # safe fallback
+        return 0.20
 
     r1, s1 = cards[0]
     r2, s2 = cards[1]
-    hi, lo     = max(r1, r2), min(r1, r2)
-    is_pair    = (r1 == r2)
-    is_suited  = (s1 == s2)
-    gap        = (hi - lo) if not is_pair else 0
+    hi, lo    = max(r1, r2), min(r1, r2)
+    is_pair   = (r1 == r2)
+    is_suited = (s1 == s2)
+    gap       = (hi - lo) if not is_pair else 0
 
     if is_pair:
-        score = 0.38 + (hi / 12.0) * 0.57          # 22=0.38 … AA=0.95
+        score = 0.38 + (hi / 12.0) * 0.57
     else:
         score  = 0.10
-        score += (hi / 12.0) * 0.30                 # high-card value
-        score += (lo / 12.0) * 0.15                 # kicker value
-        score += 0.06 if is_suited else 0.0          # suited bonus
-        score -= gap * 0.03                          # gap penalty (connectors best)
-        score += 0.05 if lo >= 8 else 0.0            # both-broadway bonus (T+)
+        score += (hi / 12.0) * 0.30
+        score += (lo / 12.0) * 0.15
+        score += 0.06 if is_suited else 0.0
+        score -= gap  * 0.03
+        score += 0.05 if lo >= 8 else 0.0    # both broadway (T+)
 
     return max(0.05, min(score, 1.0))
 
 
 # ══════════════════════════════════════════════════════════════
 #   OPPONENT AGGRESSION SCANNER
-#   Reads the last 30 opponent actions in state.history.
-#   Returns a float in [0.75, 1.25]:
-#     < 1.0  →  aggressive table  →  tighten thresholds
-#     > 1.0  →  passive table     →  loosen slightly
+#   Scans the last 30 opponent actions in state.history.
+#   Returns [0.75, 1.25]: values < 1.0 mean aggressive table (tighten up).
 # ══════════════════════════════════════════════════════════════
 
 def _table_aggression(history):
     try:
-        opponent_actions = [
-            e for e in (history or [])[-30:]
-            if e.get("type") == "player_action"
-        ]
-        if len(opponent_actions) < 4:
-            return 1.0                      # too little data — neutral
-        raise_freq = sum(
-            1 for e in opponent_actions if e.get("action") == "raise"
-        ) / len(opponent_actions)
-        # Baseline aggression ≈ 0.30 raise frequency → factor = 1.0
+        opp_acts = [e for e in (history or [])[-30:]
+                    if e.get("type") == "player_action"]
+        if len(opp_acts) < 4:
+            return 1.0
+        raise_freq = sum(1 for e in opp_acts if e.get("action") == "raise") / len(opp_acts)
         return max(0.75, min(1.25, 1.0 - (raise_freq - 0.30) * 1.5))
     except Exception:
         return 1.0
@@ -262,15 +308,11 @@ def _table_aggression(history):
 
 # ══════════════════════════════════════════════════════════════
 #   RAISE SIZING
-#   Four tiers keyed to hand strength, all clamped to legal range.
-#     Probe  (weak / semi-bluff) : +25% pot
-#     Value  (medium)            : +45% pot
-#     Power  (strong)            : +65% pot
-#     Max    (monster)           : +90% pot
+#   Probe (+25% pot) / Value (+45%) / Power (+65%) / Max (+90%)
+#   All clamped to [min_raise, chips + current_bet].
 # ══════════════════════════════════════════════════════════════
 
 def _raise_size(strength, state):
-    """Return a clamped raise total appropriate to hand strength."""
     if strength >= 0.85:
         frac = 0.90
     elif strength >= 0.70:
@@ -295,58 +337,97 @@ def decide(state: GameState):
     Never raises an exception — any internal error falls back to check/fold.
     """
     try:
-        # ── 1. Hand strength ──────────────────────────────────
+
+        # ── Step 1: Raw hand strength ─────────────────────────────
         if state.community:
             strength = _postflop_strength(state.hole_cards, state.community)
         else:
             strength = _preflop_strength(state.hole_cards)
 
-        # ── 2. Context multipliers ────────────────────────────
-        # More opponents → need stronger equity to continue (multiway pots).
-        # Aggressive table → tighten thresholds (agg < 1.0 raises required_equity).
-        opp          = max(1, state.active_opponents)
-        agg          = _table_aggression(state.history)
-        opp_squeeze  = 1.0 + (opp - 1) * 0.05   # 1op=1.00, 3op=1.10, 5op=1.20
+        # ── Step 2: Draw bonus (detect_draws, bugs fixed) ─────────
+        # Adds equity for flush draws (+0.15) and OESDs (+0.10).
+        # Skipped on the river — no cards remain to complete a draw.
+        draw_bonus = detect_draws(state.hole_cards, state.community, state.street)
+        strength   = min(strength + draw_bonus, 1.0)
 
-        # Minimum equity needed to profitably call this bet
+        # ── Step 3: Table aggression & pot-odds context ───────────
+        opp         = max(1, state.active_opponents)
+        agg         = _table_aggression(state.history)
+        opp_squeeze = 1.0 + (opp - 1) * 0.05   # 1op=1.00, 3op=1.10, 5op=1.20
         required_equity = state.pot_odds * 1.30 * opp_squeeze / agg
 
-        # ── 3. All-in triggers (only when we face a bet) ──────
+        # ── Step 4: RNG bluff / aggression filter ─────────────────
+        # Applied BEFORE standard logic so it can override a normal
+        # fold/call into an all-in. Guard: only fire when we would NOT
+        # already fold on pot-odds alone (avoids lighting chips on fire
+        # with absolute trash into a huge bet).
+        #
+        # Tier 1 — Weak Bluff   (0.25 ≤ strength < 0.40):  5% all-in
+        #   Rationale: a score in this range usually means marginal pair
+        #   or a draw — enough board connection to make the bluff semi-
+        #   credible. Pure air (< 0.25) is excluded on purpose.
+        #
+        # Tier 2 — Semi-Bluff   (0.75 ≤ strength ≤ 0.87): 20% all-in
+        #   Rationale: strong made hands in this tier (flush, full house
+        #   range) are value hands we sometimes want to over-rep. The 20%
+        #   frequency keeps opponents from knowing whether we "really have
+        #   it" or are turning a value hand into a bluff-shove.
+        #
+        # Tier 3 — Value Shove  (strength ≥ 0.88):         100% all-in
+        #   Rationale: quads / straight flush — always get the money in.
+        #
+        # Safety: each tier gate also checks that strength beats the pot-
+        # odds floor, so we don't bluff-shove into a 5× pot bet with 72o.
+
+        if strength >= 0.88:
+            # Tier 3: unconditional value shove
+            return "allin"
+
+        if 0.75 <= strength <= 0.87 and strength >= required_equity:
+            # Tier 2: 20% probability semi-bluff shove
+            if random.random() < 0.20:
+                return "allin"
+            # RNG didn't fire → fall through to standard logic below
+
+        if 0.25 <= strength < 0.40 and strength >= required_equity:
+            # Tier 1: 5% probability weak bluff shove
+            if random.random() < 0.05:
+                return "allin"
+            # RNG didn't fire → fall through to standard logic below
+
+        # ── Step 5: Standard deterministic logic ─────────────────
+        # (Runs whenever RNG tiers don't trigger, ensuring the bot
+        #  always falls back to safe, coherent play.)
+
+        # Short-stack / pot-committed all-ins (non-RNG, always correct)
         if state.to_call > 0:
             call_fraction = state.to_call / max(state.chips, 1)
-            stack_vs_pot  = state.chips  / max(state.pot,   1)
-
-            monster   = strength >= 0.88                         # quads / str.flush
-            committed = call_fraction >= 0.40 and strength >= 0.42  # pot-committed
-            short_shove = stack_vs_pot < 3.0  and strength >= 0.55  # short-stack push
-
-            if monster or committed or short_shove:
+            stack_vs_pot  = state.chips   / max(state.pot,   1)
+            committed   = call_fraction >= 0.40 and strength >= 0.42
+            short_shove = stack_vs_pot   <  3.0 and strength >= 0.55
+            if committed or short_shove:
                 return "allin"
 
-        # ── 4. Free action: check or bet ──────────────────────
+        # Free action: check or bet
         if state.can_check:
-            if strength >= 0.60:                              # strong → value bet
+            if strength >= 0.60:
                 return ("raise", _raise_size(strength, state))
             if strength >= 0.42 and state.street in ("flop", "turn"):
-                # Semi-bluff / thin value while draw potential is still live
+                # Semi-bluff / thin value while future cards remain
                 return ("raise", _raise_size(strength * 0.85, state))
-            return "check"                                    # weak → take free card
+            return "check"
 
-        # ── 5. Facing a bet: raise, call, or fold ─────────────
-        # Near-nothing hands: fold unconditionally
+        # Facing a bet
         if strength < 0.15:
             return "fold"
 
-        # Strong made hands: raise for value
         if strength >= 0.68:
             return ("raise", _raise_size(strength, state))
 
-        # Pot-odds driven decision for medium hands
         if strength >= required_equity:
             return "call"
 
-        # Preflop special case: call small opens with playable speculative hands
-        # (implied-odds play for sets, straights, flushes)
+        # Cheap preflop speculative call (implied odds for sets / draws)
         if (state.street == "preflop"
                 and state.to_call <= state.chips * 0.12
                 and strength >= 0.32):
@@ -355,7 +436,7 @@ def decide(state: GameState):
         return "fold"
 
     except Exception:
-        # Last-resort safety net — must never disqualify the bot
+        # Absolute last-resort fallback — must never crash the bot
         return "check" if state.can_check else "fold"
 
 # ─────────────────────────────────────────────
