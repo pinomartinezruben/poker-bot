@@ -129,22 +129,95 @@ def decide(state: GameState):
     state.history         → list of past action events this session
     """
 
-    # ── Example: simple random bot ──────────────────────────────
-    # Replace everything below with your own logic!
+    # ── Card parsing helper (inline) ────────────────────────────
+    # Converts "Ah" → integer rank 12 (0-indexed in "23456789TJQKA")
+    # Returns -1 on parse failure so hand_val degrades gracefully.
+    RANKS = "23456789TJQKA"   # index 0=2 … 12=Ace
+
+    def parse_rank(card_str):
+        try:
+            return RANKS.index(card_str[0])
+        except (IndexError, ValueError):
+            return -1
+
+    def parse_suit(card_str):
+        try:
+            return card_str[1]
+        except IndexError:
+            return None
+
+    # ── Hole-card strength (adapted from original hand_strength logic) ──
+    # Original used integer ranks 2-14; we map "23456789TJQKA" → 0-12
+    # and re-scale so the math is equivalent.
+    try:
+        r1 = parse_rank(state.hole_cards[0])
+        r2 = parse_rank(state.hole_cards[1])
+        s1 = parse_suit(state.hole_cards[0])
+        s2 = parse_suit(state.hole_cards[1])
+        parse_ok = (r1 >= 0 and r2 >= 0)
+    except (IndexError, TypeError):
+        parse_ok = False
+
+    if parse_ok:
+        # Pair bonus (+5), suit bonus (+1), scaled card value — mirrors
+        # the original hand_strength() formula (ranks re-based to 0-12).
+        pair_bonus  = 5 if r1 == r2 else 0
+        suit_bonus  = 1 if s1 == s2 else 0
+        # Original divided (r1+r2) by 28 with ranks 2-14.
+        # With 0-12 indexing: equivalent divisor is 24 (max sum = 12+12).
+        card_grade  = (r1 + r2) / 24.0
+        strength    = pair_bonus + suit_bonus + card_grade
+        # Normalise to 0-1 range (max raw strength ≈ 7.0: AA suited)
+        strength    = min(strength / 7.0, 1.0)
+    else:
+        # TODO: Requires manual implementation due to unknown competition structure
+        # Could not parse hole cards — fall back to a conservative default.
+        strength = 0.3
+
+    # ── Community-card adjustment ────────────────────────────────
+    # Original code only evaluated 2-card hands. The competition provides
+    # flop/turn/river cards. A full hand evaluator (5–7 card) would require
+    # significant restructuring — see Manual Work report below.
+    # For now we apply a small street-based confidence boost so the bot
+    # doesn't ignore board cards entirely.
+    street_bonus = {"preflop": 0.0, "flop": 0.02, "turn": 0.04, "river": 0.06}
+    strength = min(strength + street_bonus.get(state.street, 0.0), 1.0)
+
+    # ── Decision logic (adapted from original optimal_bet scaling) ──
+    # Original: bet = strength * 20.  We map that onto fold/call/raise
+    # thresholds and respect all required state constraints.
+
+    # Pot-odds break-even threshold — call only if strength beats it.
+    required_equity = state.pot_odds * 1.5   # 1.5× margin for safety
 
     if state.can_check:
+        # Free to see next card — check weak hands, raise strong ones.
+        if strength > 0.75:
+            raise_to = min(
+                state.min_raise + int(state.pot * 0.5),
+                state.chips + state.current_bet
+            )
+            raise_to = max(raise_to, state.min_raise)
+            return ("raise", raise_to)
         return "check"
 
-    if state.to_call > state.chips // 3:
+    # Must call or fold.
+    if strength < 0.25:
         return "fold"
 
-    roll = random.random()
-    if roll < 0.6:
+    if strength > 0.80:
+        # Very strong hand — raise aggressively.
+        raise_to = min(
+            state.min_raise + int(state.pot * 0.75),
+            state.chips + state.current_bet
+        )
+        raise_to = max(raise_to, state.min_raise)
+        return ("raise", raise_to)
+
+    if strength >= required_equity:
         return "call"
-    elif roll < 0.8:
-        return ("raise", min(state.min_raise, state.chips + state.current_bet))
-    else:
-        return "fold"
+
+    return "fold"
 
 # ─────────────────────────────────────────────
 # BOT CLIENT  (networking — do not edit)
