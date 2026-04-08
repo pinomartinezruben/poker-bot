@@ -1,0 +1,516 @@
+[macronyx] Connected to 34.122.221.214:9999
+[macronyx] Assigned PID=0, chips=1000, bb=20, players=10
+[macronyx] Dealt: ['Qd', '6h']  chips=1000  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=Player_1  bb=vatsa_mcts
+[macronyx] amyy → fold   chips=?
+[macronyx] jahyun_koo → call 20  chips=980
+[macronyx] Player_6 → fold 0  chips=1000
+[macronyx] dumbass → raise 90  chips=910
+[macronyx] KRIS → raise 320  chips=680
+[macronyx] Player_9 → fold   chips=?
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_1 → fold 0  chips=990
+[macronyx] vatsa_mcts → call 320  chips=660
+[macronyx] jahyun_koo → call 320  chips=680
+[macronyx] dumbass → raise 1000  chips=0
+[macronyx] KRIS → raise 1000  chips=0
+[macronyx] vatsa_mcts → call 980  chips=0
+[macronyx] jahyun_koo → call 1000  chips=0
+[macronyx] Board (flop): ['3h', '5s', '2s']  pot=4010
+[macronyx] Board (turn): ['3h', '5s', '2s', '8h']  pot=4010
+[macronyx] Board (river): ['3h', '5s', '2s', '8h', 'Jh']  pot=4010
+[macronyx] SHOWDOWN — winners: ['vatsa_mcts']  pot=4010  best hand: Two Pair
+           vatsa_mcts: {'cards': ['2s', '5s'], 'hand': 'Two Pair', 'score': -2375962}
+           jahyun_koo: {'cards': ['6d', '8d'], 'hand': 'One Pair', 'score': -1538644}
+           dumbass: {'cards': ['9d', '5d'], 'hand': 'One Pair', 'score': -1329799}
+           KRIS: {'cards': ['7c', 'Tc'], 'hand': 'High Card', 'score': -694116}
+           Stacks: {'0': 1000, '1': 990, '2': 4010, '3': 1000, '4': 0, '6': 1000, '7': 0, '8': 0, '9': 1000}
+[macronyx] Dealt: ['9s', '2d']  chips=1000  pot=30
+[macronyx] ── New hand ── dealer=Player_1  sb=vatsa_mcts  bb=amyy
+[macronyx] Player_6 → fold 0  chips=1000
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_1 → fold 0  chips=990
+[macronyx] vatsa_mcts → call 20  chips=3980
+[macronyx] amyy → fold   chips=?
+[macronyx] Board (flop): ['Ad', '8c', '8s']  pot=50
+[macronyx] vatsa_mcts wins pot=50 (everyone_folded)
+           Stacks: {'0': 1000, '1': 990, '2': 4030, '3': 980, '6': 1000}
+[macronyx] Dealt: ['Jc', '7s']  chips=1000  pot=30
+[macronyx] ── New hand ── dealer=vatsa_mcts  sb=amyy  bb=Player_6
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_1 → fold 0  chips=990
+[macronyx] vatsa_mcts → call 20  chips=4010
+[macronyx] amyy → fold   chips=?
+[macronyx] Player_6 → fold 0  chips=980
+[macronyx] Board (flop): ['Qh', 'Qs', '4c']  pot=50
+[macronyx] vatsa_mcts wins pot=50 (everyone_folded)
+           Stacks: {'0': 1000, '1': 990, '2': 4060, '3': 970, '6': 980}
+[macronyx] Dealt: ['Jh', '8c']  chips=980  pot=30
+[macronyx] ── New hand ── dealer=amyy  sb=Player_6  bb=macronyx
+[macronyx] Player_1 → raise 60  chips=930
+[macronyx] vatsa_mcts → call 60  chips=4000
+[macronyx] amyy → fold   chips=?
+[macronyx] Player_6 → fold 0  chips=970
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['8c', '5h', '8d']  pot=150
+[macronyx] Player_1 → fold   chips=?
+[macronyx] Board (turn): ['8c', '5h', '8d', '2s']  pot=150
+[macronyx] vatsa_mcts wins pot=150 (everyone_folded)
+           Stacks: {'0': 980, '1': 930, '2': 4150, '3': 970, '6': 970}
+[macronyx] Dealt: ['3d', 'Qh']  chips=970  pot=30
+[macronyx] ── New hand ── dealer=Player_6  sb=macronyx  bb=Player_1
+[macronyx] vatsa_mcts → call 20  chips=4130
+[macronyx] amyy → fold   chips=?
+[macronyx] Player_6 → fold 0  chips=970
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_1 → fold   chips=?
+[macronyx] Board (flop): ['4h', 'Th', '6h']  pot=50
+[macronyx] vatsa_mcts wins pot=50 (everyone_folded)
+           Stacks: {'0': 970, '1': 910, '2': 4180, '3': 970, '6': 970}
+[macronyx] Dealt: ['Kd', '2h']  chips=970  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=Player_1  bb=vatsa_mcts
+[macronyx] amyy → fold   chips=?
+[macronyx] Player_6 → fold 0  chips=970
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_1 → allin 900  chips=0
+[macronyx] vatsa_mcts → call 20  chips=4140
+[macronyx] Board (flop): ['2d', 'Ts', 'Qd']  pot=950
+[macronyx] vatsa_mcts → check 0  chips=4140
+[macronyx] Board (turn): ['2d', 'Ts', 'Qd', 'Tc']  pot=950
+[macronyx] vatsa_mcts → check 0  chips=4140
+[macronyx] Board (river): ['2d', 'Ts', 'Qd', 'Tc', 'Ks']  pot=950
+[macronyx] vatsa_mcts → check 0  chips=4140
+[macronyx] SHOWDOWN — winners: ['Player_1']  pot=950  best hand: Two Pair
+           Player_1: {'cards': ['5d', 'Kh'], 'hand': 'Two Pair', 'score': -2935195}
+           vatsa_mcts: {'cards': ['6d', 'As'], 'hand': 'One Pair', 'score': -1678795}
+           Stacks: {'0': 970, '1': 950, '2': 4140, '3': 970, '6': 970}
+[macronyx] Dealt: ['2s', 'Qd']  chips=970  pot=30
+[macronyx] ── New hand ── dealer=Player_1  sb=vatsa_mcts  bb=amyy
+[macronyx] Player_6 → fold 0  chips=970
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_1 → fold 0  chips=950
+[macronyx] vatsa_mcts → call 20  chips=4110
+[macronyx] amyy → fold   chips=?
+[macronyx] Board (flop): ['9c', '3h', '8s']  pot=50
+[macronyx] vatsa_mcts wins pot=50 (everyone_folded)
+           Stacks: {'0': 970, '1': 950, '2': 4160, '3': 950, '6': 970}
+[macronyx] Dealt: ['8s', 'Qd']  chips=970  pot=30
+[macronyx] ── New hand ── dealer=vatsa_mcts  sb=amyy  bb=Player_6
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_1 → raise 60  chips=890
+[macronyx] vatsa_mcts → call 60  chips=4100
+[macronyx] amyy → fold   chips=?
+[macronyx] Player_6 → fold 0  chips=950
+[macronyx] Board (flop): ['5d', '2c', 'As']  pot=150
+[macronyx] Player_1 → raise 60  chips=830
+[macronyx] vatsa_mcts → call 60  chips=4040
+[macronyx] Board (turn): ['5d', '2c', 'As', 'Ks']  pot=270
+[macronyx] Player_1 → fold   chips=?
+[macronyx] Board (river): ['5d', '2c', 'As', 'Ks', '3s']  pot=270
+[macronyx] vatsa_mcts wins pot=270 (everyone_folded)
+           Stacks: {'0': 970, '1': 830, '2': 4310, '3': 940, '6': 950}
+[macronyx] Dealt: ['9d', '9c']  chips=950  pot=30
+[macronyx] ── New hand ── dealer=amyy  sb=Player_6  bb=macronyx
+[macronyx] Player_1 → fold   chips=?
+[macronyx] vatsa_mcts → call 20  chips=4290
+[macronyx] amyy → fold   chips=?
+[macronyx] Player_6 → fold 0  chips=940
+[macronyx] Action → {'action': 'raise', 'amount': 72}
+[macronyx] vatsa_mcts → call 72  chips=4238
+[macronyx] Board (flop): ['2c', 'Kc', '6h']  pot=174
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=4238
+[macronyx] Board (turn): ['2c', 'Kc', '6h', 'Tc']  pot=174
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=4238
+[macronyx] Board (river): ['2c', 'Kc', '6h', 'Tc', '4s']  pot=174
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=4238
+[macronyx] SHOWDOWN — winners: ['macronyx']  pot=174  best hand: One Pair
+           macronyx: {'cards': ['9d', '9c'], 'hand': 'One Pair', 'score': -1608853}
+           vatsa_mcts: {'cards': ['9h', '5h'], 'hand': 'High Card', 'score': -825428}
+           Stacks: {'0': 1052, '1': 830, '2': 4238, '3': 940, '6': 940}
+[macronyx] Dealt: ['Qs', '2c']  chips=1042  pot=30
+[macronyx] ── New hand ── dealer=Player_6  sb=macronyx  bb=Player_1
+[macronyx] vatsa_mcts → call 20  chips=4218
+[macronyx] amyy → fold   chips=?
+[macronyx] Player_6 → fold 0  chips=940
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_1 → allin 810  chips=0
+[macronyx] Board (flop): ['As', 'Qh', '7s']  pot=860
+[macronyx] vatsa_mcts → check 0  chips=4218
+[macronyx] Board (turn): ['As', 'Qh', '7s', '9h']  pot=860
+[macronyx] vatsa_mcts → check 0  chips=4218
+[macronyx] Board (river): ['As', 'Qh', '7s', '9h', '6h']  pot=860
+[macronyx] vatsa_mcts → check 0  chips=4218
+[macronyx] SHOWDOWN — winners: ['vatsa_mcts']  pot=860  best hand: Flush
+           Player_1: {'cards': ['9c', '9s'], 'hand': 'Three of a Kind', 'score': -3705051}
+           vatsa_mcts: {'cards': ['Jh', 'Qh'], 'hand': 'Flush', 'score': -6011525}
+           Stacks: {'0': 1042, '1': 0, '2': 5078, '3': 940, '6': 940}
+[macronyx] Dealt: ['4c', 'Td']  chips=1022  pot=30
+[macronyx] ── New hand ── dealer=amyy  sb=Player_6  bb=macronyx
+[macronyx] vatsa_mcts → call 20  chips=5058
+[macronyx] amyy → fold   chips=?
+[macronyx] Player_6 → fold 0  chips=930
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['Tc', '3c', 'As']  pot=50
+[macronyx] vatsa_mcts wins pot=50 (everyone_folded)
+           Stacks: {'0': 1022, '2': 5108, '3': 940, '6': 930}
+[macronyx] Dealt: ['9s', '4d']  chips=1012  pot=30
+[macronyx] ── New hand ── dealer=Player_6  sb=macronyx  bb=vatsa_mcts
+[macronyx] Player_6 → fold 0  chips=930
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['8d', 'Kh', '9s']  pot=30
+[macronyx] vatsa_mcts wins pot=30 (everyone_folded)
+           Stacks: {'0': 1012, '2': 5118, '6': 930}
+[macronyx] Dealt: ['Jd', '8h']  chips=1012  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=vatsa_mcts  bb=Player_6
+[macronyx] Action → {'action': 'fold'}
+[macronyx] vatsa_mcts → call 20  chips=5088
+[macronyx] Player_6 → fold 0  chips=910
+[macronyx] Board (flop): ['5h', 'Qd', 'Ac']  pot=50
+[macronyx] vatsa_mcts wins pot=50 (everyone_folded)
+           Stacks: {'0': 1012, '2': 5138, '6': 910}
+[macronyx] Dealt: ['Jd', '8s']  chips=992  pot=30
+[macronyx] ── New hand ── dealer=vatsa_mcts  sb=Player_6  bb=macronyx
+[macronyx] vatsa_mcts → call 20  chips=5118
+[macronyx] Player_6 → fold 0  chips=900
+[macronyx] Action → {'action': 'call'}
+[macronyx] Board (flop): ['4s', '2h', 'Ad']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=5118
+[macronyx] Board (turn): ['4s', '2h', 'Ad', 'Ad']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=5118
+[macronyx] Board (river): ['4s', '2h', 'Ad', 'Ad', '9h']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=5118
+[macronyx] SHOWDOWN — winners: ['vatsa_mcts']  pot=70  best hand: One Pair
+           macronyx: {'cards': ['Jd', '8s'], 'hand': 'One Pair', 'score': -1956487}
+           vatsa_mcts: {'cards': ['Jc', 'Kc'], 'hand': 'One Pair', 'score': -1957032}
+           Stacks: {'0': 972, '2': 5188, '6': 900}
+[macronyx] Dealt: ['Qc', '7d']  chips=962  pot=30
+[macronyx] ── New hand ── dealer=Player_6  sb=macronyx  bb=vatsa_mcts
+[macronyx] Player_6 → fold 0  chips=900
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['2s', 'Kh', '9s']  pot=30
+[macronyx] vatsa_mcts wins pot=30 (everyone_folded)
+           Stacks: {'0': 962, '2': 5198, '6': 900}
+[macronyx] Dealt: ['Ts', 'Qc']  chips=962  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=vatsa_mcts  bb=Player_6
+[macronyx] Action → {'action': 'call'}
+[macronyx] vatsa_mcts → call 20  chips=5168
+[macronyx] Player_6 → fold 0  chips=880
+[macronyx] Board (flop): ['Ac', '2s', 'Qd']  pot=70
+[macronyx] vatsa_mcts → check 0  chips=5168
+[macronyx] Action → {'action': 'check'}
+[macronyx] Board (turn): ['Ac', '2s', 'Qd', 'Kd']  pot=70
+[macronyx] vatsa_mcts → check 0  chips=5168
+[macronyx] Action → {'action': 'check'}
+[macronyx] Board (river): ['Ac', '2s', 'Qd', 'Kd', '2c']  pot=70
+[macronyx] vatsa_mcts → check 0  chips=5168
+[macronyx] Action → {'action': 'check'}
+[macronyx] SHOWDOWN — winners: ['macronyx']  pot=70  best hand: Two Pair
+           macronyx: {'cards': ['Ts', 'Qc'], 'hand': 'Two Pair', 'score': -2863389}
+           vatsa_mcts: {'cards': ['Tc', '5s'], 'hand': 'One Pair', 'score': -1121739}
+           Stacks: {'0': 1012, '2': 5168, '6': 880}
+[macronyx] Dealt: ['9c', 'Th']  chips=992  pot=30
+[macronyx] ── New hand ── dealer=vatsa_mcts  sb=Player_6  bb=macronyx
+[macronyx] vatsa_mcts → call 20  chips=5148
+[macronyx] Player_6 → fold 0  chips=870
+[macronyx] Action → {'action': 'call'}
+[macronyx] Board (flop): ['7h', '8h', 'Ks']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=5148
+[macronyx] Board (turn): ['7h', '8h', 'Ks', 'Td']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=5148
+[macronyx] Board (river): ['7h', '8h', 'Ks', 'Td', 'Ad']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=5148
+[macronyx] SHOWDOWN — winners: ['macronyx']  pot=70  best hand: One Pair
+           macronyx: {'cards': ['9c', 'Th'], 'hand': 'One Pair', 'score': -1678792}
+           vatsa_mcts: {'cards': ['9h', '7s'], 'hand': 'One Pair', 'score': -1469897}
+           Stacks: {'0': 1042, '2': 5148, '6': 870}
+[macronyx] Dealt: ['Ac', '9h']  chips=1032  pot=30
+[macronyx] ── New hand ── dealer=Player_6  sb=macronyx  bb=vatsa_mcts
+[macronyx] Player_6 → fold 0  chips=870
+[macronyx] Action → {'action': 'call'}
+[macronyx] vatsa_mcts → call 20  chips=5108
+[macronyx] Board (flop): ['8s', '6d', 'Kd']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=5108
+[macronyx] Board (turn): ['8s', '6d', 'Kd', '9c']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=5108
+[macronyx] Board (river): ['8s', '6d', 'Kd', '9c', '4h']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=5108
+[macronyx] SHOWDOWN — winners: ['macronyx']  pot=70  best hand: One Pair
+           macronyx: {'cards': ['Ac', '9h'], 'hand': 'One Pair', 'score': -1609159}
+           vatsa_mcts: {'cards': ['Ac', 'Th'], 'hand': 'High Card', 'score': -903559}
+           Stacks: {'0': 1082, '2': 5108, '6': 870}
+[macronyx] Dealt: ['8s', '6d']  chips=1082  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=vatsa_mcts  bb=Player_6
+[macronyx] Action → {'action': 'fold'}
+[macronyx] vatsa_mcts → call 20  chips=5078
+[macronyx] Player_6 → fold 0  chips=850
+[macronyx] Board (flop): ['Ah', 'Th', 'Qc']  pot=50
+[macronyx] vatsa_mcts wins pot=50 (everyone_folded)
+           Stacks: {'0': 1082, '2': 5128, '6': 850}
+[macronyx] Dealt: ['4s', '4h']  chips=1062  pot=30
+[macronyx] ── New hand ── dealer=vatsa_mcts  sb=Player_6  bb=macronyx
+[macronyx] vatsa_mcts → call 20  chips=5108
+[macronyx] Player_6 → fold 0  chips=840
+[macronyx] Action → {'action': 'call'}
+[macronyx] Board (flop): ['Jh', '5s', 'Qh']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=5108
+[macronyx] Board (turn): ['Jh', '5s', 'Qh', '6d']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=5108
+[macronyx] Board (river): ['Jh', '5s', 'Qh', '6d', 'Ac']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=5108
+[macronyx] SHOWDOWN — winners: ['vatsa_mcts']  pot=70  best hand: One Pair
+           macronyx: {'cards': ['4s', '4h'], 'hand': 'One Pair', 'score': -1260986}
+           vatsa_mcts: {'cards': ['3h', '6s'], 'hand': 'One Pair', 'score': -1400250}
+           Stacks: {'0': 1042, '2': 5178, '6': 840}
+[macronyx] Dealt: ['3d', '6h']  chips=1032  pot=30
+[macronyx] ── New hand ── dealer=Player_6  sb=macronyx  bb=vatsa_mcts
+[macronyx] Player_6 → fold 0  chips=840
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['3d', 'Jh', 'Jd']  pot=30
+[macronyx] vatsa_mcts wins pot=30 (everyone_folded)
+           Stacks: {'0': 1032, '2': 5188, '6': 840}
+[macronyx] Dealt: ['Js', '7h']  chips=1032  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=vatsa_mcts  bb=Player_6
+[macronyx] Action → {'action': 'fold'}
+[macronyx] vatsa_mcts → call 20  chips=5158
+[macronyx] Player_6 → fold 0  chips=820
+[macronyx] Board (flop): ['5h', '2c', '8c']  pot=50
+[macronyx] vatsa_mcts wins pot=50 (everyone_folded)
+           Stacks: {'0': 1032, '2': 5208, '6': 820}
+[macronyx] Dealt: ['Qs', '3h']  chips=1012  pot=30
+[macronyx] ── New hand ── dealer=vatsa_mcts  sb=Player_6  bb=macronyx
+[macronyx] vatsa_mcts → call 20  chips=5188
+[macronyx] Player_6 → fold 0  chips=810
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['Ac', '2s', 'Tc']  pot=50
+[macronyx] vatsa_mcts wins pot=50 (everyone_folded)
+           Stacks: {'0': 1012, '2': 5238, '6': 810}
+[macronyx] Dealt: ['Qc', '9h']  chips=1002  pot=30
+[macronyx] ── New hand ── dealer=Player_6  sb=macronyx  bb=vatsa_mcts
+[macronyx] Player_6 → fold 0  chips=810
+[macronyx] Action → {'action': 'call'}
+[macronyx] vatsa_mcts → call 20  chips=5198
+[macronyx] Board (flop): ['7s', '5h', 'Ah']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=5198
+[macronyx] Board (turn): ['7s', '5h', 'Ah', '5d']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=5198
+[macronyx] Board (river): ['7s', '5h', 'Ah', '5d', 'Ad']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=5198
+[macronyx] SHOWDOWN — winners: ['macronyx']  pot=70  best hand: Two Pair
+           macronyx: {'cards': ['Qc', '9h'], 'hand': 'Two Pair', 'score': -3003467}
+           vatsa_mcts: {'cards': ['3h', '6d'], 'hand': 'Two Pair', 'score': -3003462}
+           Stacks: {'0': 1052, '2': 5198, '6': 810}
+[macronyx] Dealt: ['7d', 'Js']  chips=1052  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=vatsa_mcts  bb=Player_6
+[macronyx] Action → {'action': 'fold'}
+[macronyx] vatsa_mcts → call 20  chips=5168
+[macronyx] Player_6 → fold 0  chips=790
+[macronyx] Board (flop): ['6c', 'Ac', 'Ks']  pot=50
+[macronyx] vatsa_mcts wins pot=50 (everyone_folded)
+           Stacks: {'0': 1052, '2': 5218, '6': 790}
+[macronyx] Dealt: ['7h', '6s']  chips=1032  pot=30
+[macronyx] ── New hand ── dealer=vatsa_mcts  sb=Player_6  bb=macronyx
+[macronyx] vatsa_mcts → call 20  chips=5198
+[macronyx] Player_6 → fold 0  chips=780
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['6d', '2s', '5h']  pot=50
+[macronyx] vatsa_mcts wins pot=50 (everyone_folded)
+           Stacks: {'0': 1032, '2': 5248, '6': 780}
+[macronyx] Dealt: ['Jh', '6s']  chips=1022  pot=30
+[macronyx] ── New hand ── dealer=Player_6  sb=macronyx  bb=vatsa_mcts
+[macronyx] Player_6 → fold 0  chips=780
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['5s', '6s', 'Jc']  pot=30
+[macronyx] vatsa_mcts wins pot=30 (everyone_folded)
+           Stacks: {'0': 1022, '2': 5258, '6': 780}
+[macronyx] Dealt: ['5c', '9c']  chips=1022  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=vatsa_mcts  bb=Player_6
+[macronyx] Action → {'action': 'fold'}
+[macronyx] vatsa_mcts → call 20  chips=5228
+[macronyx] Player_6 → fold 0  chips=760
+[macronyx] Board (flop): ['Td', '9c', '3c']  pot=50
+[macronyx] vatsa_mcts wins pot=50 (everyone_folded)
+           Stacks: {'0': 1022, '2': 5278, '6': 760}
+[macronyx] Dealt: ['Ts', '2s']  chips=1002  pot=30
+[macronyx] ── New hand ── dealer=vatsa_mcts  sb=Player_6  bb=macronyx
+[macronyx] vatsa_mcts → call 20  chips=5258
+[macronyx] Player_6 → fold 0  chips=750
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['8s', 'Jd', 'Ac']  pot=50
+[macronyx] vatsa_mcts wins pot=50 (everyone_folded)
+           Stacks: {'0': 1002, '2': 5308, '6': 750}
+[macronyx] Dealt: ['2s', 'Ts']  chips=992  pot=30
+[macronyx] ── New hand ── dealer=Player_6  sb=macronyx  bb=vatsa_mcts
+[macronyx] Player_6 → fold 0  chips=750
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['7h', 'Kc', 'Qh']  pot=30
+[macronyx] vatsa_mcts wins pot=30 (everyone_folded)
+           Stacks: {'0': 992, '2': 5318, '6': 750}
+[macronyx] Dealt: ['Th', 'Ah']  chips=992  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=vatsa_mcts  bb=Player_6
+[macronyx] Action → {'action': 'call'}
+[macronyx] vatsa_mcts → call 20  chips=5288
+[macronyx] Player_6 → fold 0  chips=730
+[macronyx] Board (flop): ['Ks', '2c', 'Td']  pot=70
+[macronyx] vatsa_mcts → check 0  chips=5288
+[macronyx] Action → {'action': 'check'}
+[macronyx] Board (turn): ['Ks', '2c', 'Td', '8c']  pot=70
+[macronyx] vatsa_mcts → check 0  chips=5288
+[macronyx] Action → {'action': 'check'}
+[macronyx] Board (river): ['Ks', '2c', 'Td', '8c', '3d']  pot=70
+[macronyx] vatsa_mcts → check 0  chips=5288
+[macronyx] Action → {'action': 'check'}
+[macronyx] SHOWDOWN — winners: ['macronyx']  pot=70  best hand: One Pair
+           macronyx: {'cards': ['Th', 'Ah'], 'hand': 'One Pair', 'score': -1678791}
+           vatsa_mcts: {'cards': ['Js', '4c'], 'hand': 'High Card', 'score': -829811}
+           Stacks: {'0': 1042, '2': 5288, '6': 730}
+[macronyx] Dealt: ['Jh', '8d']  chips=1022  pot=30
+[macronyx] ── New hand ── dealer=vatsa_mcts  sb=Player_6  bb=macronyx
+[macronyx] vatsa_mcts → call 20  chips=5268
+[macronyx] Player_6 → fold 0  chips=720
+[macronyx] Action → {'action': 'call'}
+[macronyx] Board (flop): ['6c', '5c', '8h']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=5268
+[macronyx] Board (turn): ['6c', '5c', '8h', '4h']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=5268
+[macronyx] Board (river): ['6c', '5c', '8h', '4h', 'Ad']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=5268
+[macronyx] SHOWDOWN — winners: ['macronyx']  pot=70  best hand: One Pair
+           macronyx: {'cards': ['Jh', '8d'], 'hand': 'One Pair', 'score': -1539493}
+           vatsa_mcts: {'cards': ['Ts', 'Kh'], 'hand': 'High Card', 'score': -903541}
+           Stacks: {'0': 1072, '2': 5268, '6': 720}
+[macronyx] Dealt: ['Ks', '8d']  chips=1062  pot=30
+[macronyx] ── New hand ── dealer=Player_6  sb=macronyx  bb=vatsa_mcts
+[macronyx] Player_6 → fold 0  chips=720
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['Jc', 'Tc', '5h']  pot=30
+[macronyx] vatsa_mcts wins pot=30 (everyone_folded)
+           Stacks: {'0': 1062, '2': 5278, '6': 720}
+[macronyx] Dealt: ['Tc', 'Td']  chips=1062  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=vatsa_mcts  bb=Player_6
+[macronyx] Action → {'action': 'allin', 'amount': 1082}
+[macronyx] vatsa_mcts → call 20  chips=5248
+[macronyx] Player_6 → fold 0  chips=700
+[macronyx] Board (flop): ['4d', 'Ad', '5h']  pot=1112
+[macronyx] vatsa_mcts → check 0  chips=5248
+[macronyx] Board (turn): ['4d', 'Ad', '5h', '4d']  pot=1112
+[macronyx] vatsa_mcts → check 0  chips=5248
+[macronyx] Board (river): ['4d', 'Ad', '5h', '4d', '7h']  pot=1112
+[macronyx] vatsa_mcts → check 0  chips=5248
+[macronyx] SHOWDOWN — winners: ['macronyx']  pot=1112  best hand: Two Pair
+           macronyx: {'cards': ['Tc', 'Td'], 'hand': 'Two Pair', 'score': -2724669}
+           vatsa_mcts: {'cards': ['2c', 'Jd'], 'hand': 'One Pair', 'score': -1260966}
+           Stacks: {'0': 1112, '2': 5248, '6': 700}
+[macronyx] Dealt: ['Qh', '4d']  chips=1092  pot=30
+[macronyx] ── New hand ── dealer=vatsa_mcts  sb=Player_6  bb=macronyx
+[macronyx] vatsa_mcts → call 20  chips=5228
+[macronyx] Player_6 → fold 0  chips=690
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['2s', 'Qc', 'Kh']  pot=50
+[macronyx] vatsa_mcts wins pot=50 (everyone_folded)
+           Stacks: {'0': 1092, '2': 5278, '6': 690}
+[macronyx] Dealt: ['Qd', 'Kc']  chips=1082  pot=30
+[macronyx] ── New hand ── dealer=Player_6  sb=macronyx  bb=vatsa_mcts
+[macronyx] Player_6 → fold 0  chips=690
+[macronyx] Action → {'action': 'call'}
+[macronyx] vatsa_mcts → call 20  chips=5238
+[macronyx] Board (flop): ['Kd', 'Qh', 'Qs']  pot=70
+[macronyx] Action → {'action': 'raise', 'amount': 65}
+[macronyx] vatsa_mcts → call 65  chips=5173
+[macronyx] Board (turn): ['Kd', 'Qh', 'Qs', 'Ac']  pot=200
+[macronyx] Action → {'action': 'raise', 'amount': 150}
+[macronyx] vatsa_mcts → call 150  chips=5023
+[macronyx] Board (river): ['Kd', 'Qh', 'Qs', 'Ac', '9d']  pot=500
+[macronyx] Action → {'action': 'raise', 'amount': 345}
+[macronyx] vatsa_mcts → call 345  chips=4678
+[macronyx] SHOWDOWN — winners: ['macronyx']  pot=1190  best hand: Full House
+           macronyx: {'cards': ['Qd', 'Kc'], 'hand': 'Full House', 'score': -7060428}
+           vatsa_mcts: {'cards': ['Jd', 'Jc'], 'hand': 'Two Pair', 'score': -2865837}
+           Stacks: {'0': 1692, '2': 4678, '6': 690}
+[macronyx] Dealt: ['9d', '4c']  chips=1692  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=vatsa_mcts  bb=Player_6
+[macronyx] Action → {'action': 'fold'}
+[macronyx] vatsa_mcts → call 20  chips=4648
+[macronyx] Player_6 → fold 0  chips=670
+[macronyx] Board (flop): ['8h', '5s', '6s']  pot=50
+[macronyx] vatsa_mcts wins pot=50 (everyone_folded)
+           Stacks: {'0': 1692, '2': 4698, '6': 670}
+[macronyx] Dealt: ['7d', '8d']  chips=1672  pot=30
+[macronyx] ── New hand ── dealer=vatsa_mcts  sb=Player_6  bb=macronyx
+[macronyx] vatsa_mcts → call 20  chips=4678
+[macronyx] Player_6 → fold 0  chips=660
+[macronyx] Action → {'action': 'call'}
+[macronyx] Board (flop): ['Jd', '8s', 'Jh']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=4678
+[macronyx] Board (turn): ['Jd', '8s', 'Jh', '4s']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=4678
+[macronyx] Board (river): ['Jd', '8s', 'Jh', '4s', '9s']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=4678
+[macronyx] SHOWDOWN — winners: ['macronyx']  pot=70  best hand: Two Pair
+           macronyx: {'cards': ['7d', '8d'], 'hand': 'Two Pair', 'score': -2795384}
+           vatsa_mcts: {'cards': ['4h', '2h'], 'hand': 'Two Pair', 'score': -2794296}
+           Stacks: {'0': 1722, '2': 4678, '6': 660}
+[macronyx] Dealt: ['Qs', 'Jc']  chips=1712  pot=30
+[macronyx] ── New hand ── dealer=Player_6  sb=macronyx  bb=vatsa_mcts
+[macronyx] Player_6 → fold 0  chips=660
+[macronyx] Action → {'action': 'call'}
+[macronyx] vatsa_mcts → call 20  chips=4638
+[macronyx] Board (flop): ['4s', 'Ac', '5h']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=4638
+[macronyx] Board (turn): ['4s', 'Ac', '5h', 'Jh']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=4638
+[macronyx] Board (river): ['4s', 'Ac', '5h', 'Jh', '9s']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=4638
+[macronyx] SHOWDOWN — winners: ['vatsa_mcts']  pot=70  best hand: Two Pair
+           macronyx: {'cards': ['Qs', 'Jc'], 'hand': 'One Pair', 'score': -1748408}
+           vatsa_mcts: {'cards': ['Jh', '9h'], 'hand': 'Two Pair', 'score': -2795661}
+           Stacks: {'0': 1692, '2': 4708, '6': 660}
+[macronyx] Dealt: ['Ks', '4c']  chips=1692  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=vatsa_mcts  bb=Player_6
+[macronyx] Action → {'action': 'fold'}
+[macronyx] vatsa_mcts → call 20  chips=4678
+[macronyx] Player_6 → fold 0  chips=640
+[macronyx] Board (flop): ['3h', '6s', '9d']  pot=50
+[macronyx] vatsa_mcts wins pot=50 (everyone_folded)
+           Stacks: {'0': 1692, '2': 4728, '6': 640}
+[macronyx] Dealt: ['8h', 'Ah']  chips=1672  pot=30
+[macronyx] ── New hand ── dealer=vatsa_mcts  sb=Player_6  bb=macronyx
+[macronyx] vatsa_mcts → call 20  chips=4708
+[macronyx] Player_6 → fold 0  chips=630
+[macronyx] Action → {'action': 'call'}
+[macronyx] Board (flop): ['Kh', '7d', '4s']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=4708
+[macronyx] Board (turn): ['Kh', '7d', '4s', 'Td']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=4708
+[macronyx] Board (river): ['Kh', '7d', '4s', 'Td', 'Ac']  pot=70
+[macronyx] Action → {'action': 'check'}
+[macronyx] vatsa_mcts → check 0  chips=4708
+[macronyx] Server disconnected.

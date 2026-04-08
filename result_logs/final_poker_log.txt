@@ -1,0 +1,1749 @@
+[macronyx] Connected to 34.122.221.214:9999
+[macronyx] Assigned PID=12, chips=1000, bb=20, players=13
+[macronyx] Dealt: ['Kd', '3h']  chips=1000  pot=30
+[macronyx] ── New hand ── dealer=vatsa_M3  sb=vatsa_M10  bb=jahyun_koo
+[macronyx] Player_3 → fold 5  chips=995
+[macronyx] Player_4 → call 20  chips=980
+[macronyx] yoga1 → fold 5  chips=995
+[macronyx] yoga2 → fold 5  chips=995
+[macronyx] yoga3 → fold 5  chips=995
+[macronyx] yoga4 → fold 5  chips=995
+[macronyx] yoga5 → fold 5  chips=995
+[macronyx] logger_bot → raise 120.0  chips=880.0
+[macronyx] chris → call 120.0  chips=880.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] vatsa_M3 → call 120.0  chips=880.0
+[macronyx] vatsa_M10 → call 120.0  chips=870.0
+[macronyx] jahyun_koo → fold 5  chips=975
+[macronyx] Player_4 → raise 240.0  chips=760.0
+[macronyx] logger_bot → raise 1000.0  chips=0.0
+[macronyx] chris → fold 125.0  chips=875.0
+[macronyx] vatsa_M3 → call 1000.0  chips=0.0
+[macronyx] vatsa_M10 → call 990.0  chips=0.0
+[macronyx] Player_4 → raise 1000.0  chips=0.0
+[macronyx] Board (flop): ['9s', '8s', 'Kc']  pot=4185.0
+[macronyx] Board (turn): ['9s', '8s', 'Kc', 'As']  pot=4185.0
+[macronyx] Board (river): ['9s', '8s', 'Kc', 'As', 'Kh']  pot=4185.0
+[macronyx] SHOWDOWN — winners: ['logger_bot']  pot=4185.0  best hand: Flush
+           vatsa_M3: {'cards': ['Qh', 'Qc'], 'hand': 'Two Pair', 'score': -2935741}
+           vatsa_M10: {'cards': ['Th', 'Kh'], 'hand': 'Three of a Kind', 'score': -3984601}
+           Player_4: {'cards': ['9d', '2s'], 'hand': 'Two Pair', 'score': -2934925}
+           logger_bot: {'cards': ['Qs', '2s'], 'hand': 'Flush', 'score': -6142065}
+           Stacks: {'0': 0.0, '1': 0.0, '2': 975, '3': 995, '4': 0.0, '5': 995, '6': 995, '7': 995, '8': 995, '9': 995, '10': 4185.0, '11': 875.0, '12': 995}
+[macronyx] Dealt: ['2h', '8d']  chips=995  pot=30
+[macronyx] ── New hand ── dealer=Player_3  sb=yoga1  bb=yoga2
+[macronyx] yoga3 → fold 5  chips=990
+[macronyx] yoga4 → fold 5  chips=990
+[macronyx] yoga5 → fold 5  chips=990
+[macronyx] logger_bot → raise 85.0  chips=4100.0
+[macronyx] chris → call 85.0  chips=790.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → fold 5  chips=970
+[macronyx] Player_3 → call 85.0  chips=910.0
+[macronyx] yoga1 → call 85.0  chips=900.0
+[macronyx] yoga2 → fold 5  chips=970
+[macronyx] Board (flop): ['Kc', '2c', '6c']  pot=400.0
+[macronyx] yoga1 → bet 5  chips=895.0
+[macronyx] logger_bot → raise 430.0  chips=3670.0
+[macronyx] chris → fold 5  chips=785.0
+[macronyx] Player_3 → timeout 5  chips=905.0
+[macronyx] yoga1 → fold 10  chips=890.0
+[macronyx] Board (turn): ['Kc', '2c', '6c', 'As']  pot=850.0
+[macronyx] logger_bot wins pot=850.0 (everyone_folded)
+           Stacks: {'2': 970, '3': 905.0, '5': 890.0, '6': 970, '7': 990, '8': 990, '9': 990, '10': 4520.0, '11': 785.0, '12': 990}
+[macronyx] Dealt: ['4h', 'Th']  chips=990  pot=30
+[macronyx] ── New hand ── dealer=yoga1  sb=yoga2  bb=yoga3
+[macronyx] yoga4 → fold 5  chips=985
+[macronyx] yoga5 → fold 5  chips=985
+[macronyx] logger_bot → raise 80.0  chips=4440.0
+[macronyx] chris → call 80.0  chips=705.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → fold 5  chips=965
+[macronyx] Player_3 → timeout 5  chips=900.0
+[macronyx] yoga1 → fold 5  chips=885.0
+[macronyx] yoga2 → fold 5  chips=955
+[macronyx] yoga3 → fold 5  chips=965
+[macronyx] Board (flop): ['7h', '5d', '7c']  pot=230.0
+[macronyx] logger_bot → raise 250.0  chips=4190.0
+[macronyx] chris → fold 5  chips=700.0
+[macronyx] Board (turn): ['7h', '5d', '7c', '8d']  pot=485.0
+[macronyx] logger_bot wins pot=485.0 (everyone_folded)
+           Stacks: {'2': 965, '3': 900.0, '5': 885.0, '6': 955, '7': 965, '8': 985, '9': 985, '10': 4675.0, '11': 700.0, '12': 985}
+[macronyx] Dealt: ['Qs', '6s']  chips=985  pot=30
+[macronyx] ── New hand ── dealer=yoga2  sb=yoga3  bb=yoga4
+[macronyx] yoga5 → fold 5  chips=980
+[macronyx] logger_bot → raise 75.0  chips=4600.0
+[macronyx] chris → call 75.0  chips=625.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → fold 5  chips=960
+[macronyx] Player_3 → timeout 5  chips=895.0
+[macronyx] yoga1 → fold 5  chips=880.0
+[macronyx] yoga2 → fold 5  chips=950
+[macronyx] yoga3 → fold 5  chips=950
+[macronyx] yoga4 → raise 282.0  chips=683.0
+[macronyx] logger_bot → raise 1061.0  chips=3614.0
+[macronyx] chris → fold 80.0  chips=620.0
+[macronyx] yoga4 → fold 287.0  chips=678.0
+[macronyx] Board (flop): ['Qs', 'Jh', '8h']  pot=1493.0
+[macronyx] logger_bot wins pot=1493.0 (everyone_folded)
+           Stacks: {'2': 960, '3': 895.0, '5': 880.0, '6': 950, '7': 950, '8': 678.0, '9': 980, '10': 5107.0, '11': 620.0, '12': 980}
+[macronyx] Dealt: ['8h', '9h']  chips=980  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga4  bb=yoga5
+[macronyx] logger_bot → raise 70.0  chips=5037.0
+[macronyx] chris → raise 140.0  chips=480.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → fold 5  chips=955
+[macronyx] Player_3 → fold 5  chips=890.0
+[macronyx] yoga1 → allin 880.0  chips=0
+[macronyx] yoga2 → allin 950  chips=0
+[macronyx] yoga3 → fold 5  chips=945
+[macronyx] yoga4 → fold 5  chips=663.0
+[macronyx] yoga5 → fold 5  chips=955
+[macronyx] logger_bot → raise 2380.0  chips=2727.0
+[macronyx] chris → fold 145.0  chips=475.0
+[macronyx] Board (flop): ['Td', '5c', 'Qh']  pot=4415.0
+[macronyx] logger_bot → raise 2727.0  chips=0.0
+[macronyx] Board (turn): ['Td', '5c', 'Qh', 'Th']  pot=7142.0
+[macronyx] Board (river): ['Td', '5c', 'Qh', 'Th', '3d']  pot=7142.0
+[macronyx] SHOWDOWN — winners: ['logger_bot']  pot=7142.0  best hand: Two Pair
+           yoga1: {'cards': ['2c', '7c'], 'hand': 'One Pair', 'score': -1678180}
+           yoga2: {'cards': ['Kc', '8d'], 'hand': 'One Pair', 'score': -1678519}
+           logger_bot: {'cards': ['3s', '2d'], 'hand': 'Two Pair', 'score': -2724395}
+           Stacks: {'2': 955, '3': 890.0, '5': 0, '6': 0, '7': 945, '8': 663.0, '9': 955, '10': 7142.0, '11': 475.0, '12': 975}
+[macronyx] Dealt: ['7d', 'Jd']  chips=955  pot=30
+[macronyx] ── New hand ── dealer=logger_bot  sb=chris  bb=macronyx
+[macronyx] jahyun_koo → call 20  chips=935
+[macronyx] Player_3 → fold 5  chips=885.0
+[macronyx] yoga3 → fold 5  chips=940
+[macronyx] yoga4 → fold 5  chips=658.0
+[macronyx] yoga5 → fold 5  chips=950
+[macronyx] logger_bot → raise 110.0  chips=7032.0
+[macronyx] chris → call 110.0  chips=355.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] jahyun_koo → fold 25  chips=930
+[macronyx] Board (flop): ['Th', 'Qd', '4c']  pot=405.0
+[macronyx] chris → bet 5  chips=350.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] logger_bot → raise 440.0  chips=6592.0
+[macronyx] chris → fold 10  chips=345.0
+[macronyx] Board (turn): ['Th', 'Qd', '4c', '6h']  pot=860.0
+[macronyx] logger_bot wins pot=860.0 (everyone_folded)
+           Stacks: {'2': 930, '3': 885.0, '7': 940, '8': 658.0, '9': 950, '10': 7452.0, '11': 345.0, '12': 840.0}
+[macronyx] Dealt: ['Td', '3h']  chips=830.0  pot=30
+[macronyx] ── New hand ── dealer=chris  sb=macronyx  bb=jahyun_koo
+[macronyx] Player_3 → raise 80.0  chips=805.0
+[macronyx] yoga3 → fold 5  chips=935
+[macronyx] yoga4 → fold 5  chips=653.0
+[macronyx] yoga5 → fold 5  chips=945
+[macronyx] logger_bot → raise 285.0  chips=7167.0
+[macronyx] chris → fold 5  chips=340.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → fold 5  chips=905
+[macronyx] Player_3 → fold 85.0  chips=800.0
+[macronyx] Board (flop): ['2c', 'Kh', '7c']  pot=430.0
+[macronyx] logger_bot wins pot=430.0 (everyone_folded)
+           Stacks: {'2': 905, '3': 800.0, '7': 935, '8': 653.0, '9': 945, '10': 7597.0, '11': 340.0, '12': 825.0}
+[macronyx] Dealt: ['3s', 'Ts']  chips=825.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=jahyun_koo  bb=Player_3
+[macronyx] yoga3 → fold 5  chips=930
+[macronyx] yoga4 → fold 5  chips=648.0
+[macronyx] yoga5 → fold 5  chips=940
+[macronyx] logger_bot → raise 85.0  chips=7512.0
+[macronyx] chris → raise 170.0  chips=170.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → fold 5  chips=890
+[macronyx] Player_3 → fold 5  chips=775.0
+[macronyx] logger_bot → raise 655.0  chips=6942.0
+[macronyx] chris → fold 175.0  chips=165.0
+[macronyx] Board (flop): ['Qc', 'Ks', 'Js']  pot=890.0
+[macronyx] logger_bot wins pot=890.0 (everyone_folded)
+           Stacks: {'2': 890, '3': 775.0, '7': 930, '8': 648.0, '9': 940, '10': 7832.0, '11': 165.0, '12': 820.0}
+[macronyx] Dealt: ['4h', 'Qc']  chips=820.0  pot=30
+[macronyx] ── New hand ── dealer=jahyun_koo  sb=Player_3  bb=yoga3
+[macronyx] yoga4 → fold 5  chips=643.0
+[macronyx] yoga5 → fold 5  chips=935
+[macronyx] logger_bot → raise 80.0  chips=7752.0
+[macronyx] chris → fold 5  chips=160.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → fold 5  chips=885
+[macronyx] Player_3 → fold 5  chips=760.0
+[macronyx] yoga3 → fold 5  chips=905
+[macronyx] Board (flop): ['8s', '2c', 'Kc']  pot=145.0
+[macronyx] logger_bot wins pot=145.0 (everyone_folded)
+           Stacks: {'2': 885, '3': 760.0, '7': 905, '8': 643.0, '9': 935, '10': 7897.0, '11': 160.0, '12': 815.0}
+[macronyx] Dealt: ['5c', '7d']  chips=815.0  pot=30
+[macronyx] ── New hand ── dealer=Player_3  sb=yoga3  bb=yoga4
+[macronyx] yoga5 → fold 5  chips=930
+[macronyx] logger_bot → raise 75.0  chips=7822.0
+[macronyx] chris → fold 5  chips=155.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → timeout 5  chips=880
+[macronyx] Player_3 → fold 5  chips=755.0
+[macronyx] yoga3 → fold 5  chips=890
+[macronyx] yoga4 → fold 5  chips=618.0
+[macronyx] Board (flop): ['As', 'Qh', 'Ks']  pot=140.0
+[macronyx] logger_bot wins pot=140.0 (everyone_folded)
+           Stacks: {'2': 880, '3': 755.0, '7': 890, '8': 618.0, '9': 930, '10': 7962.0, '11': 155.0, '12': 810.0}
+[macronyx] Dealt: ['Kd', '2d']  chips=810.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga4  bb=yoga5
+[macronyx] logger_bot → raise 70.0  chips=7892.0
+[macronyx] chris → fold 5  chips=150.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → timeout 5  chips=875
+[macronyx] Player_3 → fold 5  chips=750.0
+[macronyx] yoga3 → fold 5  chips=885
+[macronyx] yoga4 → fold 5  chips=603.0
+[macronyx] yoga5 → fold 5  chips=905
+[macronyx] Board (flop): ['9d', '6s', 'Qc']  pot=135.0
+[macronyx] logger_bot wins pot=135.0 (everyone_folded)
+           Stacks: {'2': 875, '3': 750.0, '7': 885, '8': 603.0, '9': 905, '10': 8027.0, '11': 150.0, '12': 805.0}
+[macronyx] Dealt: ['2s', '5s']  chips=805.0  pot=30
+[macronyx] ── New hand ── dealer=yoga4  sb=yoga5  bb=logger_bot
+[macronyx] chris → call 20  chips=130.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → timeout 5  chips=870
+[macronyx] Player_3 → fold 5  chips=745.0
+[macronyx] yoga3 → fold 5  chips=880
+[macronyx] yoga4 → fold 5  chips=598.0
+[macronyx] yoga5 → fold 5  chips=890
+[macronyx] logger_bot → raise 120.0  chips=7887.0
+[macronyx] chris → fold 25  chips=125.0
+[macronyx] Board (flop): ['7h', '7c', '6h']  pot=205.0
+[macronyx] logger_bot wins pot=205.0 (everyone_folded)
+           Stacks: {'2': 870, '3': 745.0, '7': 880, '8': 598.0, '9': 890, '10': 8092.0, '11': 125.0, '12': 800.0}
+[macronyx] Dealt: ['2s', '5c']  chips=800.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=logger_bot  bb=chris
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → timeout 5  chips=865
+[macronyx] Player_3 → fold 5  chips=740.0
+[macronyx] yoga3 → fold 5  chips=875
+[macronyx] yoga4 → fold 5  chips=593.0
+[macronyx] yoga5 → fold 5  chips=885
+[macronyx] logger_bot → raise 100.0  chips=7982.0
+[macronyx] chris → fold 5  chips=100.0
+[macronyx] Board (flop): ['Kh', '6d', 'Kd']  pot=165.0
+[macronyx] logger_bot wins pot=165.0 (everyone_folded)
+           Stacks: {'2': 865, '3': 740.0, '7': 875, '8': 593.0, '9': 885, '10': 8147.0, '11': 100.0, '12': 795.0}
+[macronyx] Dealt: ['8c', 'Ad']  chips=775.0  pot=30
+[macronyx] ── New hand ── dealer=logger_bot  sb=chris  bb=macronyx
+[macronyx] jahyun_koo → timeout 5  chips=860
+[macronyx] Player_3 → fold 5  chips=735.0
+[macronyx] yoga3 → fold 5  chips=870
+[macronyx] yoga4 → fold 5  chips=588.0
+[macronyx] yoga5 → fold 5  chips=880
+[macronyx] logger_bot → raise 95.0  chips=8052.0
+[macronyx] chris → fold 5  chips=85.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['5c', '3s', 'Tc']  pot=160.0
+[macronyx] logger_bot wins pot=160.0 (everyone_folded)
+           Stacks: {'2': 860, '3': 735.0, '7': 870, '8': 588.0, '9': 880, '10': 8212.0, '11': 85.0, '12': 770.0}
+[macronyx] Dealt: ['5h', '4s']  chips=760.0  pot=30
+[macronyx] ── New hand ── dealer=chris  sb=macronyx  bb=jahyun_koo
+[macronyx] Player_3 → fold 5  chips=730.0
+[macronyx] yoga3 → fold 5  chips=865
+[macronyx] yoga4 → fold 5  chips=583.0
+[macronyx] yoga5 → fold 5  chips=875
+[macronyx] logger_bot → raise 90.0  chips=8122.0
+[macronyx] chris → fold 5  chips=80.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → fold 5  chips=835
+[macronyx] Board (flop): ['Ts', 'Ah', '4h']  pot=155.0
+[macronyx] logger_bot wins pot=155.0 (everyone_folded)
+           Stacks: {'2': 835, '3': 730.0, '7': 865, '8': 583.0, '9': 875, '10': 8277.0, '11': 80.0, '12': 755.0}
+[macronyx] Dealt: ['6s', '4h']  chips=755.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=jahyun_koo  bb=Player_3
+[macronyx] yoga3 → fold 5  chips=860
+[macronyx] yoga4 → fold 5  chips=578.0
+[macronyx] yoga5 → fold 5  chips=870
+[macronyx] logger_bot → raise 85.0  chips=8192.0
+[macronyx] chris → fold 5  chips=75.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → fold 5  chips=820
+[macronyx] Player_3 → raise 60.0  chips=650.0
+[macronyx] logger_bot → raise 325.0  chips=7952.0
+[macronyx] Player_3 → call 325.0  chips=385.0
+[macronyx] Board (flop): ['Ah', 'Ts', '4c']  pot=710.0
+[macronyx] Player_3 → bet 5  chips=380.0
+[macronyx] logger_bot → raise 740.0  chips=7212.0
+[macronyx] Player_3 → timeout 10  chips=375.0
+[macronyx] Board (turn): ['Ah', 'Ts', '4c', 'Ah']  pot=1460.0
+[macronyx] logger_bot wins pot=1460.0 (everyone_folded)
+           Stacks: {'2': 820, '3': 375.0, '7': 860, '8': 578.0, '9': 870, '10': 8672.0, '11': 75.0, '12': 750.0}
+[macronyx] Dealt: ['Qd', '8c']  chips=750.0  pot=30
+[macronyx] ── New hand ── dealer=jahyun_koo  sb=Player_3  bb=yoga3
+[macronyx] yoga4 → fold 5  chips=573.0
+[macronyx] yoga5 → fold 5  chips=865
+[macronyx] logger_bot → raise 80.0  chips=8592.0
+[macronyx] chris → fold 5  chips=70.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → fold 5  chips=815
+[macronyx] Player_3 → timeout 5  chips=360.0
+[macronyx] yoga3 → fold 5  chips=835
+[macronyx] Board (flop): ['6c', 'Kd', 'Qh']  pot=145.0
+[macronyx] logger_bot wins pot=145.0 (everyone_folded)
+           Stacks: {'2': 815, '3': 360.0, '7': 835, '8': 573.0, '9': 865, '10': 8737.0, '11': 70.0, '12': 745.0}
+[macronyx] Dealt: ['Ts', '6s']  chips=745.0  pot=30
+[macronyx] ── New hand ── dealer=Player_3  sb=yoga3  bb=yoga4
+[macronyx] yoga5 → fold 5  chips=860
+[macronyx] logger_bot → raise 75.0  chips=8662.0
+[macronyx] chris → fold 5  chips=65.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → fold 5  chips=810
+[macronyx] Player_3 → raise 360.0  chips=0.0
+[macronyx] yoga3 → fold 5  chips=820
+[macronyx] yoga4 → fold 5  chips=548.0
+[macronyx] logger_bot → raise 1215.0  chips=7522.0
+[macronyx] Board (flop): ['Tc', 'Ac', '2s']  pot=1635.0
+[macronyx] logger_bot → raise 1655.0  chips=5867.0
+[macronyx] Board (turn): ['Tc', 'Ac', '2s', 'Kc']  pot=3290.0
+[macronyx] logger_bot → raise 3310.0  chips=2557.0
+[macronyx] Board (river): ['Tc', 'Ac', '2s', 'Kc', '7s']  pot=6600.0
+[macronyx] logger_bot → raise 2557.0  chips=0.0
+[macronyx] SHOWDOWN — winners: ['Player_3']  pot=9157.0  best hand: One Pair
+           Player_3: {'cards': ['Ah', '9d'], 'hand': 'One Pair', 'score': -1957016}
+           logger_bot: {'cards': ['9c', 'Kd'], 'hand': 'One Pair', 'score': -1887640}
+           Stacks: {'2': 810, '3': 9157.0, '7': 820, '8': 548.0, '9': 860, '10': 0.0, '11': 65.0, '12': 740.0}
+[macronyx] Dealt: ['3s', '3h']  chips=720.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=chris  bb=macronyx
+[macronyx] jahyun_koo → fold 5  chips=805
+[macronyx] Player_3 → timeout 5  chips=9152.0
+[macronyx] yoga3 → fold 5  chips=815
+[macronyx] yoga4 → fold 5  chips=543.0
+[macronyx] yoga5 → fold 5  chips=855
+[macronyx] chris → fold 5  chips=50.0
+[macronyx] Board (flop): ['4d', '9s', 'Jc']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'2': 805, '3': 9152.0, '7': 815, '8': 543.0, '9': 855, '11': 50.0, '12': 780.0}
+[macronyx] Dealt: ['8h', 'Jh']  chips=770.0  pot=30
+[macronyx] ── New hand ── dealer=chris  sb=macronyx  bb=jahyun_koo
+[macronyx] Player_3 → timeout 5  chips=9147.0
+[macronyx] yoga3 → fold 5  chips=810
+[macronyx] yoga4 → fold 5  chips=538.0
+[macronyx] yoga5 → fold 5  chips=850
+[macronyx] chris → fold 5  chips=45.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] jahyun_koo → fold 5  chips=780
+[macronyx] Board (flop): ['6s', '2d', '9h']  pot=80
+[macronyx] macronyx wins pot=80 (everyone_folded)
+           Stacks: {'2': 780, '3': 9147.0, '7': 810, '8': 538.0, '9': 850, '11': 45.0, '12': 830.0}
+[macronyx] Dealt: ['Kc', '6s']  chips=830.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=jahyun_koo  bb=Player_3
+[macronyx] yoga3 → fold 5  chips=805
+[macronyx] yoga4 → fold 5  chips=533.0
+[macronyx] yoga5 → fold 5  chips=845
+[macronyx] chris → fold 5  chips=40.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → raise 46.0  chips=724.0
+[macronyx] Player_3 → call 46.0  chips=9081.0
+[macronyx] Board (flop): ['5s', 'Ks', '8s']  pot=147.0
+[macronyx] jahyun_koo → raise 40.0  chips=684.0
+[macronyx] Player_3 → fold 5  chips=9076.0
+[macronyx] Board (turn): ['5s', 'Ks', '8s', '9s']  pot=192.0
+[macronyx] jahyun_koo wins pot=192.0 (everyone_folded)
+           Stacks: {'2': 876.0, '3': 9076.0, '7': 805, '8': 533.0, '9': 845, '11': 40.0, '12': 825.0}
+[macronyx] Dealt: ['4c', '3c']  chips=825.0  pot=30
+[macronyx] ── New hand ── dealer=jahyun_koo  sb=Player_3  bb=yoga3
+[macronyx] yoga4 → fold 5  chips=528.0
+[macronyx] yoga5 → fold 5  chips=840
+[macronyx] chris → fold 5  chips=35.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → check 20  chips=856.0
+[macronyx] Player_3 → timeout 5  chips=9061.0
+[macronyx] yoga3 → fold 5  chips=780
+[macronyx] Board (flop): ['6c', '4d', '9h']  pot=80
+[macronyx] jahyun_koo wins pot=80 (everyone_folded)
+           Stacks: {'2': 936.0, '3': 9061.0, '7': 780, '8': 528.0, '9': 840, '11': 35.0, '12': 820.0}
+[macronyx] Dealt: ['6s', 'Ad']  chips=820.0  pot=30
+[macronyx] ── New hand ── dealer=Player_3  sb=yoga3  bb=yoga4
+[macronyx] yoga5 → fold 5  chips=835
+[macronyx] chris → fold 5  chips=30.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → fold 5  chips=931.0
+[macronyx] Player_3 → timeout 5  chips=9056.0
+[macronyx] yoga3 → fold 5  chips=765
+[macronyx] Board (flop): ['6h', '5s', '7c']  pot=60
+[macronyx] yoga4 wins pot=60 (everyone_folded)
+           Stacks: {'2': 931.0, '3': 9056.0, '7': 765, '8': 568.0, '9': 835, '11': 30.0, '12': 815.0}
+[macronyx] Dealt: ['9s', '7c']  chips=815.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga4  bb=yoga5
+[macronyx] chris → fold 5  chips=25.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → fold 5  chips=926.0
+[macronyx] Player_3 → allin 9056.0  chips=0
+[macronyx] yoga3 → fold 5  chips=760
+[macronyx] yoga4 → fold 5  chips=553.0
+[macronyx] yoga5 → fold 5  chips=810
+[macronyx] Board (flop): ['5c', '7c', '4h']  pot=9116.0
+[macronyx] Player_3 wins pot=9116.0 (everyone_folded)
+           Stacks: {'2': 926.0, '3': 9116.0, '7': 760, '8': 553.0, '9': 810, '11': 25.0, '12': 810.0}
+[macronyx] Dealt: ['3s', 'Kd']  chips=810.0  pot=30
+[macronyx] ── New hand ── dealer=yoga4  sb=yoga5  bb=chris
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → call 20  chips=906.0
+[macronyx] Player_3 → raise 100.0  chips=9016.0
+[macronyx] yoga3 → allin 760  chips=0
+[macronyx] yoga4 → allin 553.0  chips=0
+[macronyx] yoga5 → fold 5  chips=795
+[macronyx] chris → fold 5  chips=0.0
+[macronyx] jahyun_koo → fold 25  chips=901.0
+[macronyx] Board (flop): ['Th', '9c', 'Kc']  pot=1483.0
+[macronyx] Player_3 → fold 5  chips=9011.0
+[macronyx] Board (turn): ['Th', '9c', 'Kc', '7h']  pot=1488.0
+[macronyx] Board (river): ['Th', '9c', 'Kc', '7h', '3s']  pot=1488.0
+[macronyx] SHOWDOWN — winners: ['yoga3']  pot=1488.0  best hand: One Pair
+           yoga3: {'cards': ['4h', 'Th'], 'hand': 'One Pair', 'score': -1678470}
+           yoga4: {'cards': ['Qs', '8s'], 'hand': 'High Card', 'score': -833927}
+           Stacks: {'2': 901.0, '3': 9011.0, '7': 1488.0, '8': 0, '9': 795, '11': 0.0, '12': 805.0}
+[macronyx] Dealt: ['3h', '6c']  chips=805.0  pot=30
+[macronyx] ── New hand ── dealer=jahyun_koo  sb=Player_3  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=790
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → fold 5  chips=896.0
+[macronyx] Player_3 → timeout 5  chips=8996.0
+[macronyx] Board (flop): ['Td', 'Tc', 'Qc']  pot=50
+[macronyx] yoga3 wins pot=50 (everyone_folded)
+           Stacks: {'2': 896.0, '3': 8996.0, '7': 1518.0, '9': 790, '12': 800.0}
+[macronyx] Dealt: ['Kh', 'Ts']  chips=800.0  pot=30
+[macronyx] ── New hand ── dealer=Player_3  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'call'}
+[macronyx] jahyun_koo → fold 5  chips=891.0
+[macronyx] Player_3 → timeout 5  chips=8991.0
+[macronyx] yoga3 → fold 5  chips=1503.0
+[macronyx] yoga5 → fold 5  chips=765
+[macronyx] Board (flop): ['Ks', 'Tc', '9s']  pot=70
+[macronyx] macronyx wins pot=70 (everyone_folded)
+           Stacks: {'2': 891.0, '3': 8991.0, '7': 1503.0, '9': 765, '12': 850.0}
+[macronyx] Dealt: ['3c', '4d']  chips=830.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] jahyun_koo → fold 5  chips=886.0
+[macronyx] Player_3 → timeout 5  chips=8986.0
+[macronyx] yoga3 → call 20  chips=1483.0
+[macronyx] yoga5 → fold 5  chips=750
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['7h', 'Tc', '2c']  pot=70
+[macronyx] yoga3 wins pot=70 (everyone_folded)
+           Stacks: {'2': 886.0, '3': 8986.0, '7': 1553.0, '9': 750, '12': 825.0}
+[macronyx] Dealt: ['9s', '5c']  chips=815.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=jahyun_koo
+[macronyx] Player_3 → allin 8986.0  chips=0
+[macronyx] yoga3 → fold 5  chips=1548.0
+[macronyx] yoga5 → fold 5  chips=745
+[macronyx] Action → {'action': 'call'}
+[macronyx] jahyun_koo → timeout 5  chips=861.0
+[macronyx] Board (flop): ['2s', 'Kd', 'Tc']  pot=9051.0
+[macronyx] Action → {'action': 'check'}
+[macronyx] Board (turn): ['2s', 'Kd', 'Tc', '5s']  pot=9056.0
+[macronyx] Action → {'action': 'check'}
+[macronyx] Board (river): ['2s', 'Kd', 'Tc', '5s', 'Kh']  pot=9061.0
+[macronyx] Action → {'action': 'check'}
+[macronyx] SHOWDOWN — winners: ['Player_3']  pot=9066.0  best hand: Two Pair
+           Player_3: {'cards': ['Td', '5d'], 'hand': 'Two Pair', 'score': -2935188}
+           macronyx: {'cards': ['9s', '5c'], 'hand': 'Two Pair', 'score': -2933833}
+           Stacks: {'2': 861.0, '3': 9066.0, '7': 1548.0, '9': 745, '12': 780.0}
+[macronyx] Dealt: ['3d', 'Jd']  chips=780.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=jahyun_koo  bb=Player_3
+[macronyx] yoga3 → fold 5  chips=1543.0
+[macronyx] yoga5 → fold 5  chips=740
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → timeout 5  chips=846.0
+[macronyx] Board (flop): ['Ah', 'Th', '3h']  pot=50
+[macronyx] Player_3 wins pot=50 (everyone_folded)
+           Stacks: {'2': 846.0, '3': 9096.0, '7': 1543.0, '9': 740, '12': 775.0}
+[macronyx] Dealt: ['5s', 'Ts']  chips=775.0  pot=30
+[macronyx] ── New hand ── dealer=jahyun_koo  sb=Player_3  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=735
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → timeout 5  chips=841.0
+[macronyx] Player_3 → fold 5  chips=9081.0
+[macronyx] Board (flop): ['Ah', '6d', 'Jd']  pot=50
+[macronyx] yoga3 wins pot=50 (everyone_folded)
+           Stacks: {'2': 841.0, '3': 9081.0, '7': 1573.0, '9': 735, '12': 770.0}
+[macronyx] Dealt: ['2h', '8h']  chips=770.0  pot=30
+[macronyx] ── New hand ── dealer=Player_3  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → timeout 5  chips=836.0
+[macronyx] Player_3 → fold 5  chips=9076.0
+[macronyx] yoga3 → fold 5  chips=1558.0
+[macronyx] Board (flop): ['5d', 'Jh', '8s']  pot=50
+[macronyx] yoga5 wins pot=50 (everyone_folded)
+           Stacks: {'2': 836.0, '3': 9076.0, '7': 1558.0, '9': 765, '12': 765.0}
+[macronyx] Dealt: ['7h', '9d']  chips=745.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] jahyun_koo → timeout 5  chips=831.0
+[macronyx] Player_3 → fold 5  chips=9071.0
+[macronyx] yoga3 → fold 5  chips=1553.0
+[macronyx] yoga5 → fold 5  chips=750
+[macronyx] Board (flop): ['Kc', '9d', 'Ts']  pot=50
+[macronyx] macronyx wins pot=50 (everyone_folded)
+           Stacks: {'2': 831.0, '3': 9071.0, '7': 1553.0, '9': 750, '12': 795.0}
+[macronyx] Dealt: ['Kh', 'Qs']  chips=785.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=jahyun_koo
+[macronyx] Player_3 → raise 60.0  chips=9011.0
+[macronyx] yoga3 → fold 5  chips=1548.0
+[macronyx] yoga5 → fold 5  chips=745
+[macronyx] Action → {'action': 'call'}
+[macronyx] jahyun_koo → timeout 5  chips=806.0
+[macronyx] Board (flop): ['9s', '8c', '7h']  pot=165.0
+[macronyx] Action → {'action': 'check'}
+[macronyx] Player_3 → fold 5  chips=9006.0
+[macronyx] Board (turn): ['9s', '8c', '7h', '7h']  pot=175.0
+[macronyx] macronyx wins pot=175.0 (everyone_folded)
+           Stacks: {'2': 806.0, '3': 9006.0, '7': 1548.0, '9': 745, '12': 895.0}
+[macronyx] Dealt: ['6c', 'Kd']  chips=895.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=jahyun_koo  bb=Player_3
+[macronyx] yoga3 → fold 5  chips=1543.0
+[macronyx] yoga5 → fold 5  chips=740
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → timeout 5  chips=791.0
+[macronyx] Board (flop): ['Jc', '3h', '4s']  pot=50
+[macronyx] Player_3 wins pot=50 (everyone_folded)
+           Stacks: {'2': 791.0, '3': 9036.0, '7': 1543.0, '9': 740, '12': 890.0}
+[macronyx] Dealt: ['Th', 'Ts']  chips=890.0  pot=30
+[macronyx] ── New hand ── dealer=jahyun_koo  sb=Player_3  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=735
+[macronyx] Action → {'action': 'raise', 'amount': 62}
+[macronyx] jahyun_koo → timeout 5  chips=786.0
+[macronyx] Player_3 → call 62.0  chips=8964.0
+[macronyx] yoga3 → fold 5  chips=1518.0
+[macronyx] Board (flop): ['4h', 'Jc', '2h']  pot=169.0
+[macronyx] Player_3 → fold 5  chips=8959.0
+[macronyx] Board (turn): ['4h', 'Jc', '2h', 'Ac']  pot=174.0
+[macronyx] macronyx wins pot=174.0 (everyone_folded)
+           Stacks: {'2': 786.0, '3': 8959.0, '7': 1518.0, '9': 735, '12': 1002.0}
+[macronyx] Dealt: ['5s', '4h']  chips=1002.0  pot=30
+[macronyx] ── New hand ── dealer=Player_3  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → timeout 5  chips=781.0
+[macronyx] Player_3 → timeout 5  chips=8954.0
+[macronyx] yoga3 → fold 5  chips=1503.0
+[macronyx] Board (flop): ['4c', 'As', 'Ac']  pot=50
+[macronyx] yoga5 wins pot=50 (everyone_folded)
+           Stacks: {'2': 781.0, '3': 8954.0, '7': 1503.0, '9': 765, '12': 997.0}
+[macronyx] Dealt: ['3d', '7c']  chips=977.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] jahyun_koo → timeout 5  chips=776.0
+[macronyx] Player_3 → check 20  chips=8934.0
+[macronyx] yoga3 → fold 5  chips=1498.0
+[macronyx] yoga5 → fold 5  chips=750
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['2h', '3s', 'Th']  pot=70
+[macronyx] Player_3 wins pot=70 (everyone_folded)
+           Stacks: {'2': 776.0, '3': 9004.0, '7': 1498.0, '9': 750, '12': 972.0}
+[macronyx] Dealt: ['8s', '2s']  chips=962.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=jahyun_koo
+[macronyx] Player_3 → fold 5  chips=8999.0
+[macronyx] yoga3 → fold 5  chips=1493.0
+[macronyx] yoga5 → fold 5  chips=745
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['Ks', '4c', '3s']  pot=50
+[macronyx] jahyun_koo wins pot=50 (everyone_folded)
+           Stacks: {'2': 806.0, '3': 8999.0, '7': 1493.0, '9': 745, '12': 957.0}
+[macronyx] Dealt: ['6d', '5s']  chips=957.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=jahyun_koo  bb=Player_3
+[macronyx] yoga3 → fold 5  chips=1488.0
+[macronyx] yoga5 → fold 5  chips=740
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → timeout 5  chips=791.0
+[macronyx] Board (flop): ['5h', '7s', '9s']  pot=50
+[macronyx] Player_3 wins pot=50 (everyone_folded)
+           Stacks: {'2': 791.0, '3': 9029.0, '7': 1488.0, '9': 740, '12': 952.0}
+[macronyx] Dealt: ['4c', '2h']  chips=952.0  pot=30
+[macronyx] ── New hand ── dealer=jahyun_koo  sb=Player_3  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=735
+[macronyx] Action → {'action': 'fold'}
+[macronyx] jahyun_koo → timeout 5  chips=786.0
+[macronyx] Player_3 → fold 5  chips=9014.0
+[macronyx] Board (flop): ['9s', '2h', 'Jd']  pot=50
+[macronyx] yoga3 wins pot=50 (everyone_folded)
+           Stacks: {'2': 786.0, '3': 9014.0, '7': 1518.0, '9': 735, '12': 947.0}
+[macronyx] Dealt: ['8d', '6s']  chips=927.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] Player_3 → raise 60.0  chips=8954.0
+[macronyx] yoga3 → fold 5  chips=1513.0
+[macronyx] yoga5 → fold 5  chips=720
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['4c', '6c', '3s']  pot=105.0
+[macronyx] Player_3 wins pot=105.0 (everyone_folded)
+           Stacks: {'3': 9059.0, '7': 1513.0, '9': 720, '12': 922.0}
+[macronyx] Dealt: ['Qd', '7c']  chips=912.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=Player_3
+[macronyx] yoga3 → fold 5  chips=1508.0
+[macronyx] yoga5 → fold 5  chips=715
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['3s', 'Ac', 'Kc']  pot=45
+[macronyx] Player_3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 9084.0, '7': 1508.0, '9': 715, '12': 907.0}
+[macronyx] Dealt: ['9c', 'Th']  chips=907.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=Player_3  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=710
+[macronyx] Action → {'action': 'call'}
+[macronyx] Player_3 → fold 5  chips=9069.0
+[macronyx] yoga3 → fold 5  chips=1483.0
+[macronyx] Board (flop): ['2d', '8d', '8s']  pot=65
+[macronyx] macronyx wins pot=65 (everyone_folded)
+           Stacks: {'3': 9069.0, '7': 1483.0, '9': 710, '12': 952.0}
+[macronyx] Dealt: ['Kh', 'Ks']  chips=952.0  pot=30
+[macronyx] ── New hand ── dealer=Player_3  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'allin', 'amount': 972.0}
+[macronyx] Player_3 → fold 5  chips=9064.0
+[macronyx] yoga3 → fold 5  chips=1468.0
+[macronyx] yoga5 → fold 5  chips=685
+[macronyx] Board (flop): ['Qd', '6h', 'Qc']  pot=997.0
+[macronyx] macronyx wins pot=997.0 (everyone_folded)
+           Stacks: {'3': 9064.0, '7': 1468.0, '9': 685, '12': 997.0}
+[macronyx] Dealt: ['8d', '5h']  chips=977.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] Player_3 → raise 1000.0  chips=8064.0
+[macronyx] yoga3 → fold 5  chips=1463.0
+[macronyx] yoga5 → allin 675  chips=0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['6d', 'As', 'Jc']  pot=1715.0
+[macronyx] Player_3 → fold 5  chips=8059.0
+[macronyx] Board (turn): ['6d', 'As', 'Jc', 'Ts']  pot=1720.0
+[macronyx] yoga5 wins pot=1720.0 (everyone_folded)
+           Stacks: {'3': 8059.0, '7': 1463.0, '9': 1720.0, '12': 972.0}
+[macronyx] Dealt: ['2h', '8h']  chips=962.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=Player_3
+[macronyx] yoga3 → fold 5  chips=1458.0
+[macronyx] yoga5 → fold 5  chips=1715.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['4d', '4s', '5c']  pot=45
+[macronyx] Player_3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8084.0, '7': 1458.0, '9': 1715.0, '12': 957.0}
+[macronyx] Dealt: ['3d', '9d']  chips=957.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=Player_3  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1710.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_3 → timeout 5  chips=8069.0
+[macronyx] Board (flop): ['7s', '2c', '6h']  pot=45
+[macronyx] yoga3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8069.0, '7': 1483.0, '9': 1710.0, '12': 952.0}
+[macronyx] Dealt: ['Js', '7s']  chips=952.0  pot=30
+[macronyx] ── New hand ── dealer=Player_3  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'call'}
+[macronyx] Player_3 → timeout 5  chips=8064.0
+[macronyx] yoga3 → fold 5  chips=1468.0
+[macronyx] yoga5 → fold 5  chips=1685.0
+[macronyx] Board (flop): ['9s', 'As', 'Tc']  pot=65
+[macronyx] macronyx wins pot=65 (everyone_folded)
+           Stacks: {'3': 8064.0, '7': 1468.0, '9': 1685.0, '12': 997.0}
+[macronyx] Dealt: ['8c', 'Jh']  chips=977.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] Player_3 → allin 8064.0  chips=0
+[macronyx] yoga3 → fold 5  chips=1463.0
+[macronyx] yoga5 → fold 5  chips=1670.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] Board (flop): ['6h', 'Qh', 'Ks']  pot=8124.0
+[macronyx] Action → {'action': 'check'}
+[macronyx] Board (turn): ['6h', 'Qh', 'Ks', '8c']  pot=8129.0
+[macronyx] Action → {'action': 'check'}
+[macronyx] Board (river): ['6h', 'Qh', 'Ks', '8c', '6c']  pot=8134.0
+[macronyx] Action → {'action': 'check'}
+[macronyx] SHOWDOWN — winners: ['Player_3']  pot=8139.0  best hand: Three of a Kind
+           Player_3: {'cards': ['Js', '6c'], 'hand': 'Three of a Kind', 'score': -3495371}
+           macronyx: {'cards': ['8c', 'Jh'], 'hand': 'Two Pair', 'score': -2585948}
+           Stacks: {'3': 8139.0, '7': 1463.0, '9': 1670.0, '12': 942.0}
+[macronyx] Dealt: ['3s', '4h']  chips=932.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=Player_3
+[macronyx] yoga3 → fold 5  chips=1458.0
+[macronyx] yoga5 → fold 5  chips=1665.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['6c', '3d', 'Qh']  pot=45
+[macronyx] Player_3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8164.0, '7': 1458.0, '9': 1665.0, '12': 927.0}
+[macronyx] Dealt: ['3s', 'Kd']  chips=927.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=Player_3  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1660.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_3 → fold 5  chips=8149.0
+[macronyx] Board (flop): ['2s', '9d', '5h']  pot=45
+[macronyx] yoga3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8149.0, '7': 1483.0, '9': 1660.0, '12': 922.0}
+[macronyx] Dealt: ['2s', '3s']  chips=922.0  pot=30
+[macronyx] ── New hand ── dealer=Player_3  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_3 → fold 5  chips=8144.0
+[macronyx] yoga3 → fold 5  chips=1468.0
+[macronyx] Board (flop): ['7h', 'Ac', 'Ac']  pot=45
+[macronyx] yoga5 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8144.0, '7': 1468.0, '9': 1685.0, '12': 917.0}
+[macronyx] Dealt: ['7s', '6d']  chips=897.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] Player_3 → fold 5  chips=8139.0
+[macronyx] yoga3 → fold 5  chips=1463.0
+[macronyx] yoga5 → fold 5  chips=1670.0
+[macronyx] Board (flop): ['7h', 'Ts', 'Qc']  pot=45
+[macronyx] macronyx wins pot=45 (everyone_folded)
+           Stacks: {'3': 8139.0, '7': 1463.0, '9': 1670.0, '12': 942.0}
+[macronyx] Dealt: ['9h', 'Jh']  chips=932.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=Player_3
+[macronyx] yoga3 → fold 5  chips=1458.0
+[macronyx] yoga5 → fold 5  chips=1665.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] Player_3 → fold 5  chips=8114.0
+[macronyx] Board (flop): ['4c', '4s', 'As']  pot=65
+[macronyx] macronyx wins pot=65 (everyone_folded)
+           Stacks: {'3': 8114.0, '7': 1458.0, '9': 1665.0, '12': 977.0}
+[macronyx] Dealt: ['Jh', '4s']  chips=977.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=Player_3  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1660.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_3 → raise 80.0  chips=8024.0
+[macronyx] yoga3 → fold 5  chips=1433.0
+[macronyx] Board (flop): ['9h', 'Js', '2d']  pot=125.0
+[macronyx] Player_3 wins pot=125.0 (everyone_folded)
+           Stacks: {'3': 8149.0, '7': 1433.0, '9': 1660.0, '12': 972.0}
+[macronyx] Dealt: ['Qc', 'Jc']  chips=972.0  pot=30
+[macronyx] ── New hand ── dealer=Player_3  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'call'}
+[macronyx] Player_3 → fold 5  chips=8144.0
+[macronyx] yoga3 → fold 5  chips=1418.0
+[macronyx] yoga5 → call 20  chips=1620.0
+[macronyx] Board (flop): ['Tc', 'Jc', '7h']  pot=80
+[macronyx] yoga5 → bet 5  chips=1615.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] Board (turn): ['Tc', 'Jc', '7h', '6d']  pot=90
+[macronyx] yoga5 → bet 5  chips=1610.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] Board (river): ['Tc', 'Jc', '7h', '6d', '5s']  pot=100
+[macronyx] yoga5 → bet 5  chips=1605.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] SHOWDOWN — winners: ['yoga5']  pot=110  best hand: Three of a Kind
+           yoga5: {'cards': ['Td', 'Td'], 'hand': 'Three of a Kind', 'score': -3774886}
+           macronyx: {'cards': ['Qc', 'Jc'], 'hand': 'One Pair', 'score': -1747862}
+           Stacks: {'3': 8144.0, '7': 1418.0, '9': 1715.0, '12': 937.0}
+[macronyx] Dealt: ['Kd', 'Ad']  chips=917.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] Player_3 → raise 80.0  chips=8064.0
+[macronyx] yoga3 → fold 5  chips=1413.0
+[macronyx] yoga5 → fold 5  chips=1700.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] Board (flop): ['7s', '9c', 'Qc']  pot=200.0
+[macronyx] Action → {'action': 'check'}
+[macronyx] Player_3 → fold 5  chips=8059.0
+[macronyx] Board (turn): ['7s', '9c', 'Qc', '2c']  pot=210.0
+[macronyx] macronyx wins pot=210.0 (everyone_folded)
+           Stacks: {'3': 8059.0, '7': 1413.0, '9': 1700.0, '12': 1042.0}
+[macronyx] Dealt: ['7c', '5d']  chips=1032.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=Player_3
+[macronyx] yoga3 → fold 5  chips=1408.0
+[macronyx] yoga5 → fold 5  chips=1695.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['Qh', '9s', 'Td']  pot=45
+[macronyx] Player_3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8084.0, '7': 1408.0, '9': 1695.0, '12': 1027.0}
+[macronyx] Dealt: ['Kd', '3h']  chips=1027.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=Player_3  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1690.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_3 → timeout 5  chips=8069.0
+[macronyx] Board (flop): ['5c', '9c', 'Qh']  pot=45
+[macronyx] yoga3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8069.0, '7': 1433.0, '9': 1690.0, '12': 1022.0}
+[macronyx] Dealt: ['Js', '8s']  chips=1022.0  pot=30
+[macronyx] ── New hand ── dealer=Player_3  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'call'}
+[macronyx] Player_3 → timeout 5  chips=8064.0
+[macronyx] yoga3 → fold 5  chips=1418.0
+[macronyx] yoga5 → fold 5  chips=1665.0
+[macronyx] Board (flop): ['Qc', 'Jd', 'Ad']  pot=65
+[macronyx] macronyx wins pot=65 (everyone_folded)
+           Stacks: {'3': 8064.0, '7': 1418.0, '9': 1665.0, '12': 1067.0}
+[macronyx] Dealt: ['8h', '4s']  chips=1047.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] Player_3 → call 20  chips=8044.0
+[macronyx] yoga3 → fold 5  chips=1413.0
+[macronyx] yoga5 → fold 5  chips=1650.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['8c', '5d', 'Js']  pot=65
+[macronyx] Player_3 wins pot=65 (everyone_folded)
+           Stacks: {'3': 8109.0, '7': 1413.0, '9': 1650.0, '12': 1042.0}
+[macronyx] Dealt: ['Ah', '2c']  chips=1032.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=Player_3
+[macronyx] yoga3 → fold 5  chips=1408.0
+[macronyx] yoga5 → fold 5  chips=1645.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['Kc', 'Td', 'Ah']  pot=45
+[macronyx] Player_3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8134.0, '7': 1408.0, '9': 1645.0, '12': 1027.0}
+[macronyx] Dealt: ['3c', 'Jc']  chips=1027.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=Player_3  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1640.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_3 → raise 60.0  chips=8064.0
+[macronyx] yoga3 → fold 5  chips=1383.0
+[macronyx] Board (flop): ['3d', '5h', '7d']  pot=105.0
+[macronyx] Player_3 wins pot=105.0 (everyone_folded)
+           Stacks: {'3': 8169.0, '7': 1383.0, '9': 1640.0, '12': 1022.0}
+[macronyx] Dealt: ['Kh', '7d']  chips=1022.0  pot=30
+[macronyx] ── New hand ── dealer=Player_3  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_3 → raise 60.0  chips=8109.0
+[macronyx] yoga3 → fold 5  chips=1368.0
+[macronyx] yoga5 → fold 5  chips=1615.0
+[macronyx] Board (flop): ['6h', 'Ah', '3h']  pot=105.0
+[macronyx] Player_3 wins pot=105.0 (everyone_folded)
+           Stacks: {'3': 8214.0, '7': 1368.0, '9': 1615.0, '12': 1017.0}
+[macronyx] Dealt: ['Qd', '4h']  chips=997.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] Player_3 → fold 5  chips=8209.0
+[macronyx] yoga3 → fold 5  chips=1363.0
+[macronyx] yoga5 → fold 5  chips=1600.0
+[macronyx] Board (flop): ['Jh', '7h', 'Qc']  pot=45
+[macronyx] macronyx wins pot=45 (everyone_folded)
+           Stacks: {'3': 8209.0, '7': 1363.0, '9': 1600.0, '12': 1042.0}
+[macronyx] Dealt: ['4c', 'Kd']  chips=1032.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=Player_3
+[macronyx] yoga3 → fold 5  chips=1358.0
+[macronyx] yoga5 → fold 5  chips=1595.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['5h', 'Kc', '6h']  pot=45
+[macronyx] Player_3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8234.0, '7': 1358.0, '9': 1595.0, '12': 1027.0}
+[macronyx] Dealt: ['6c', '9h']  chips=1027.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=Player_3  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1590.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_3 → fold 5  chips=8219.0
+[macronyx] Board (flop): ['3c', '5c', 'Th']  pot=45
+[macronyx] yoga3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8219.0, '7': 1383.0, '9': 1590.0, '12': 1022.0}
+[macronyx] Dealt: ['8d', 'Ac']  chips=1022.0  pot=30
+[macronyx] ── New hand ── dealer=Player_3  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_3 → raise 60.0  chips=8159.0
+[macronyx] yoga3 → fold 5  chips=1368.0
+[macronyx] yoga5 → fold 5  chips=1565.0
+[macronyx] Board (flop): ['Qh', '8h', 'Jc']  pot=105.0
+[macronyx] Player_3 wins pot=105.0 (everyone_folded)
+           Stacks: {'3': 8264.0, '7': 1368.0, '9': 1565.0, '12': 1017.0}
+[macronyx] Dealt: ['Ac', 'Ks']  chips=997.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] Player_3 → fold 5  chips=8259.0
+[macronyx] yoga3 → fold 5  chips=1363.0
+[macronyx] yoga5 → fold 5  chips=1550.0
+[macronyx] Board (flop): ['9d', '7s', 'Tc']  pot=45
+[macronyx] macronyx wins pot=45 (everyone_folded)
+           Stacks: {'3': 8259.0, '7': 1363.0, '9': 1550.0, '12': 1042.0}
+[macronyx] Dealt: ['As', 'Qc']  chips=1032.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=Player_3
+[macronyx] yoga3 → fold 5  chips=1358.0
+[macronyx] yoga5 → fold 5  chips=1545.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] Player_3 → raise 60.0  chips=8179.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] Board (flop): ['Ah', '4d', '5s']  pot=160.0
+[macronyx] Action → {'action': 'check'}
+[macronyx] Player_3 → fold 5  chips=8174.0
+[macronyx] Board (turn): ['Ah', '4d', '5s', 'Ad']  pot=170.0
+[macronyx] macronyx wins pot=170.0 (everyone_folded)
+           Stacks: {'3': 8174.0, '7': 1358.0, '9': 1545.0, '12': 1137.0}
+[macronyx] Dealt: ['3c', 'Qh']  chips=1137.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=Player_3  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1540.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_3 → timeout 5  chips=8159.0
+[macronyx] Board (flop): ['9c', 'Ah', '5d']  pot=45
+[macronyx] yoga3 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8159.0, '7': 1383.0, '9': 1540.0, '12': 1132.0}
+[macronyx] Dealt: ['8h', '4d']  chips=1132.0  pot=30
+[macronyx] ── New hand ── dealer=Player_3  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Player_3 → timeout 5  chips=8154.0
+[macronyx] yoga3 → fold 5  chips=1368.0
+[macronyx] Board (flop): ['Js', '2s', '2h']  pot=45
+[macronyx] yoga5 wins pot=45 (everyone_folded)
+           Stacks: {'3': 8154.0, '7': 1368.0, '9': 1565.0, '12': 1127.0}
+[macronyx] Dealt: ['Kh', '5s']  chips=1107.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] Player_3 → allin 8154.0  chips=0
+[macronyx] yoga3 → call 20  chips=1348.0
+[macronyx] yoga5 → fold 5  chips=1550.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] Board (flop): ['7s', '7d', '6h']  pot=8229.0
+[macronyx] Action → {'action': 'check'}
+[macronyx] yoga3 → call 5  chips=1343.0
+[macronyx] Board (turn): ['7s', '7d', '6h', '9h']  pot=8239.0
+[macronyx] Action → {'action': 'check'}
+[macronyx] yoga3 → call 5  chips=1338.0
+[macronyx] Board (river): ['7s', '7d', '6h', '9h', '2c']  pot=8249.0
+[macronyx] Action → {'action': 'check'}
+[macronyx] yoga3 → call 5  chips=1333.0
+[macronyx] SHOWDOWN — winners: ['yoga3']  pot=8259.0  best hand: Two Pair
+           Player_3: {'cards': ['Ah', 'Qc'], 'hand': 'One Pair', 'score': -1469880}
+           yoga3: {'cards': ['Jc', 'Jd'], 'hand': 'Two Pair', 'score': -2795112}
+           macronyx: {'cards': ['Kh', '5s'], 'hand': 'One Pair', 'score': -1469573}
+           Stacks: {'3': 0, '7': 9592.0, '9': 1550.0, '12': 1072.0}
+[macronyx] Dealt: ['2s', '9h']  chips=1072.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9577.0
+[macronyx] Board (flop): ['Ad', '6d', 'Kd']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9577.0, '9': 1570.0, '12': 1067.0}
+[macronyx] Dealt: ['6s', 'Jc']  chips=1047.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9572.0
+[macronyx] yoga5 → fold 5  chips=1555.0
+[macronyx] Board (flop): ['3c', '9d', '6d']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9572.0, '9': 1555.0, '12': 1087.0}
+[macronyx] Dealt: ['5d', 'Kd']  chips=1077.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1550.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['9h', '4d', '7s']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9592.0, '9': 1550.0, '12': 1072.0}
+[macronyx] Dealt: ['4c', 'Kd']  chips=1072.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9577.0
+[macronyx] Board (flop): ['Qs', 'Qc', '9h']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9577.0, '9': 1570.0, '12': 1067.0}
+[macronyx] Dealt: ['Jh', '5c']  chips=1047.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9572.0
+[macronyx] yoga5 → fold 5  chips=1555.0
+[macronyx] Board (flop): ['Qs', 'Tc', 'Kc']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9572.0, '9': 1555.0, '12': 1087.0}
+[macronyx] Dealt: ['Jd', '7s']  chips=1077.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1550.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['4s', '9s', '8c']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9592.0, '9': 1550.0, '12': 1072.0}
+[macronyx] Dealt: ['Ah', '9d']  chips=1072.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9577.0
+[macronyx] yoga5 → fold 5  chips=1525.0
+[macronyx] Board (flop): ['8d', '3h', '5d']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9577.0, '9': 1525.0, '12': 1112.0}
+[macronyx] Dealt: ['7h', '6d']  chips=1092.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9572.0
+[macronyx] yoga5 → fold 5  chips=1510.0
+[macronyx] Board (flop): ['5c', '5h', '6d']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9572.0, '9': 1510.0, '12': 1132.0}
+[macronyx] Dealt: ['As', 'Qh']  chips=1122.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1505.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9547.0
+[macronyx] Board (flop): ['9d', 'Ks', 'Js']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9547.0, '9': 1505.0, '12': 1162.0}
+[macronyx] Dealt: ['Jh', '8h']  chips=1162.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9532.0
+[macronyx] yoga5 → fold 5  chips=1480.0
+[macronyx] Board (flop): ['3s', 'Qc', 'Qh']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9532.0, '9': 1480.0, '12': 1202.0}
+[macronyx] Dealt: ['9c', '4c']  chips=1182.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9527.0
+[macronyx] yoga5 → fold 5  chips=1465.0
+[macronyx] Board (flop): ['Js', 'Kh', 'Tc']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9527.0, '9': 1465.0, '12': 1222.0}
+[macronyx] Dealt: ['3d', '3s']  chips=1212.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1460.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9502.0
+[macronyx] Board (flop): ['5c', 'Ks', '6s']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9502.0, '9': 1460.0, '12': 1252.0}
+[macronyx] Dealt: ['Ts', '3h']  chips=1252.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9487.0
+[macronyx] Board (flop): ['Jh', '2d', '9c']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9487.0, '9': 1480.0, '12': 1247.0}
+[macronyx] Dealt: ['Jd', '7d']  chips=1227.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9482.0
+[macronyx] yoga5 → fold 5  chips=1465.0
+[macronyx] Board (flop): ['8c', '7d', 'Qc']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9482.0, '9': 1465.0, '12': 1267.0}
+[macronyx] Dealt: ['2c', 'As']  chips=1257.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1460.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['4s', '3s', 'Jh']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9502.0, '9': 1460.0, '12': 1252.0}
+[macronyx] Dealt: ['8s', '2h']  chips=1252.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9487.0
+[macronyx] Board (flop): ['2d', '3c', 'Ac']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9487.0, '9': 1480.0, '12': 1247.0}
+[macronyx] Dealt: ['Kc', '5h']  chips=1227.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9482.0
+[macronyx] yoga5 → fold 5  chips=1465.0
+[macronyx] Board (flop): ['Ac', '9c', 'Kh']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9482.0, '9': 1465.0, '12': 1267.0}
+[macronyx] Dealt: ['Qd', '7d']  chips=1257.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1460.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9457.0
+[macronyx] Board (flop): ['Ah', 'Ad', '4d']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9457.0, '9': 1460.0, '12': 1297.0}
+[macronyx] Dealt: ['3c', '2h']  chips=1297.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9442.0
+[macronyx] Board (flop): ['5c', 'Jh', '2s']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9442.0, '9': 1480.0, '12': 1292.0}
+[macronyx] Dealt: ['2c', 'Ad']  chips=1272.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9437.0
+[macronyx] yoga5 → fold 5  chips=1465.0
+[macronyx] Board (flop): ['Kh', '4h', '7d']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9437.0, '9': 1465.0, '12': 1312.0}
+[macronyx] Dealt: ['7d', 'Jh']  chips=1302.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1460.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['3d', '6d', '6s']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9457.0, '9': 1460.0, '12': 1297.0}
+[macronyx] Dealt: ['Ad', '3s']  chips=1297.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9442.0
+[macronyx] Board (flop): ['5h', '8s', '7h']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9442.0, '9': 1480.0, '12': 1292.0}
+[macronyx] Dealt: ['5c', '9s']  chips=1272.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9437.0
+[macronyx] yoga5 → fold 5  chips=1465.0
+[macronyx] Board (flop): ['Qc', '9c', '7s']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9437.0, '9': 1465.0, '12': 1312.0}
+[macronyx] Dealt: ['Qd', '6s']  chips=1302.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1460.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['8s', '2d', '6s']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9457.0, '9': 1460.0, '12': 1297.0}
+[macronyx] Dealt: ['9d', 'Jh']  chips=1297.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9442.0
+[macronyx] yoga5 → fold 5  chips=1435.0
+[macronyx] Board (flop): ['Tc', '8d', '7s']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9442.0, '9': 1435.0, '12': 1337.0}
+[macronyx] Dealt: ['6h', '9h']  chips=1317.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9437.0
+[macronyx] yoga5 → fold 5  chips=1420.0
+[macronyx] Board (flop): ['Td', '5h', '3s']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9437.0, '9': 1420.0, '12': 1357.0}
+[macronyx] Dealt: ['2h', 'Ks']  chips=1347.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1415.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['2d', '7s', 'Kd']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9457.0, '9': 1415.0, '12': 1342.0}
+[macronyx] Dealt: ['2h', 'Qd']  chips=1342.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9442.0
+[macronyx] Board (flop): ['Kc', '4c', '4s']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9442.0, '9': 1435.0, '12': 1337.0}
+[macronyx] Dealt: ['Th', 'Qc']  chips=1317.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9437.0
+[macronyx] yoga5 → fold 5  chips=1420.0
+[macronyx] Board (flop): ['Kd', '2s', '6d']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9437.0, '9': 1420.0, '12': 1357.0}
+[macronyx] Dealt: ['Jh', 'Tc']  chips=1347.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1415.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9412.0
+[macronyx] Board (flop): ['6d', '8h', '4h']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9412.0, '9': 1415.0, '12': 1387.0}
+[macronyx] Dealt: ['7d', 'Kd']  chips=1387.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9397.0
+[macronyx] Board (flop): ['Ad', '5c', '2h']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9397.0, '9': 1435.0, '12': 1382.0}
+[macronyx] Dealt: ['2d', '9d']  chips=1362.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9392.0
+[macronyx] yoga5 → fold 5  chips=1420.0
+[macronyx] Board (flop): ['9h', 'Qc', 'Kd']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9392.0, '9': 1420.0, '12': 1402.0}
+[macronyx] Dealt: ['6c', 'Qh']  chips=1392.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1415.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['3h', 'Qs', 'Ac']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9412.0, '9': 1415.0, '12': 1387.0}
+[macronyx] Dealt: ['3c', '5d']  chips=1387.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9397.0
+[macronyx] Board (flop): ['Kh', '5s', '9c']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9397.0, '9': 1435.0, '12': 1382.0}
+[macronyx] Dealt: ['2h', 'Qc']  chips=1362.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9392.0
+[macronyx] yoga5 → fold 5  chips=1420.0
+[macronyx] Board (flop): ['8d', '5c', '9d']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9392.0, '9': 1420.0, '12': 1402.0}
+[macronyx] Dealt: ['Kh', 'As']  chips=1392.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → raise 40.0  chips=1380.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9367.0
+[macronyx] Board (flop): ['6s', '4c', '9c']  pot=115.0
+[macronyx] Action → {'action': 'check'}
+[macronyx] yoga5 → call 5  chips=1375.0
+[macronyx] Board (turn): ['6s', '4c', '9c', 'Qd']  pot=125.0
+[macronyx] Action → {'action': 'check'}
+[macronyx] yoga5 → call 5  chips=1370.0
+[macronyx] Board (river): ['6s', '4c', '9c', 'Qd', '3c']  pot=135.0
+[macronyx] Action → {'action': 'check'}
+[macronyx] yoga5 → call 5  chips=1365.0
+[macronyx] SHOWDOWN — winners: ['yoga5']  pot=145.0  best hand: One Pair
+           yoga5: {'cards': ['Jd', 'Jd'], 'hand': 'One Pair', 'score': -1747845}
+           macronyx: {'cards': ['Kh', 'As'], 'hand': 'High Card', 'score': -904069}
+           Stacks: {'7': 9367.0, '9': 1510.0, '12': 1337.0}
+[macronyx] Dealt: ['6h', '5h']  chips=1337.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9352.0
+[macronyx] Board (flop): ['9d', 'As', '8s']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9352.0, '9': 1530.0, '12': 1332.0}
+[macronyx] Dealt: ['4s', 'As']  chips=1312.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9347.0
+[macronyx] yoga5 → fold 5  chips=1515.0
+[macronyx] Board (flop): ['Kh', '9h', '7s']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9347.0, '9': 1515.0, '12': 1352.0}
+[macronyx] Dealt: ['Ac', 'Tc']  chips=1342.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1510.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9322.0
+[macronyx] Board (flop): ['4s', 'Kc', '9s']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9322.0, '9': 1510.0, '12': 1382.0}
+[macronyx] Dealt: ['Td', 'Kd']  chips=1382.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9307.0
+[macronyx] yoga5 → fold 5  chips=1485.0
+[macronyx] Board (flop): ['2d', '3s', 'Qs']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9307.0, '9': 1485.0, '12': 1422.0}
+[macronyx] Dealt: ['3s', '9c']  chips=1402.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9302.0
+[macronyx] yoga5 → fold 5  chips=1470.0
+[macronyx] Board (flop): ['4c', 'Jh', '3c']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9302.0, '9': 1470.0, '12': 1442.0}
+[macronyx] Dealt: ['Kd', 'Th']  chips=1432.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1465.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9277.0
+[macronyx] Board (flop): ['7s', 'Ad', '6c']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9277.0, '9': 1465.0, '12': 1472.0}
+[macronyx] Dealt: ['Ah', 'Ts']  chips=1472.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9262.0
+[macronyx] yoga5 → fold 5  chips=1440.0
+[macronyx] Board (flop): ['7h', 'Jc', '9d']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9262.0, '9': 1440.0, '12': 1512.0}
+[macronyx] Dealt: ['8h', 'Th']  chips=1492.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9257.0
+[macronyx] yoga5 → fold 5  chips=1425.0
+[macronyx] Board (flop): ['8c', 'Jh', '2c']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9257.0, '9': 1425.0, '12': 1532.0}
+[macronyx] Dealt: ['6s', '3s']  chips=1522.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1420.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['Ac', '9d', 'Ad']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9277.0, '9': 1420.0, '12': 1517.0}
+[macronyx] Dealt: ['Tc', '8h']  chips=1517.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9262.0
+[macronyx] Board (flop): ['5s', '3c', '4c']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9262.0, '9': 1440.0, '12': 1512.0}
+[macronyx] Dealt: ['Kc', '4d']  chips=1492.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9257.0
+[macronyx] yoga5 → fold 5  chips=1425.0
+[macronyx] Board (flop): ['Kd', 'Qs', '6c']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9257.0, '9': 1425.0, '12': 1532.0}
+[macronyx] Dealt: ['8d', '3h']  chips=1522.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1420.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['7s', '4c', '6h']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9277.0, '9': 1420.0, '12': 1517.0}
+[macronyx] Dealt: ['Kh', 'Jh']  chips=1517.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9262.0
+[macronyx] yoga5 → fold 5  chips=1395.0
+[macronyx] Board (flop): ['3c', '5h', '4d']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9262.0, '9': 1395.0, '12': 1557.0}
+[macronyx] Dealt: ['Jd', 'Qh']  chips=1537.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9257.0
+[macronyx] yoga5 → fold 5  chips=1380.0
+[macronyx] Board (flop): ['6d', '9h', '6s']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9257.0, '9': 1380.0, '12': 1577.0}
+[macronyx] Dealt: ['7c', '3d']  chips=1567.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1375.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['9d', '9c', 'Qs']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9277.0, '9': 1375.0, '12': 1562.0}
+[macronyx] Dealt: ['Td', '6s']  chips=1562.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9262.0
+[macronyx] Board (flop): ['4s', '7s', 'Ad']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9262.0, '9': 1395.0, '12': 1557.0}
+[macronyx] Dealt: ['Ac', '3h']  chips=1537.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9257.0
+[macronyx] yoga5 → fold 5  chips=1380.0
+[macronyx] Board (flop): ['Kh', '3d', 'Ac']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9257.0, '9': 1380.0, '12': 1577.0}
+[macronyx] Dealt: ['2c', '5c']  chips=1567.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1375.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['9c', '9d', '4d']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9277.0, '9': 1375.0, '12': 1562.0}
+[macronyx] Dealt: ['5c', '8s']  chips=1562.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9262.0
+[macronyx] Board (flop): ['Qd', '6s', '8d']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9262.0, '9': 1395.0, '12': 1557.0}
+[macronyx] Dealt: ['4s', '7d']  chips=1537.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9257.0
+[macronyx] yoga5 → fold 5  chips=1380.0
+[macronyx] Board (flop): ['Qh', '6h', '2c']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9257.0, '9': 1380.0, '12': 1577.0}
+[macronyx] Dealt: ['6s', '5s']  chips=1567.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1375.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['8d', 'Td', '7h']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9277.0, '9': 1375.0, '12': 1562.0}
+[macronyx] Dealt: ['5h', '5c']  chips=1562.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9262.0
+[macronyx] yoga5 → raise 40.0  chips=1315.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] Board (flop): ['7d', 'Qh', '6c']  pot=115.0
+[macronyx] yoga5 → bet 5  chips=1310.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (turn): ['7d', 'Qh', '6c', '3s']  pot=125.0
+[macronyx] yoga5 wins pot=125.0 (everyone_folded)
+           Stacks: {'7': 9262.0, '9': 1435.0, '12': 1517.0}
+[macronyx] Dealt: ['Qh', '5d']  chips=1497.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9257.0
+[macronyx] yoga5 → fold 5  chips=1420.0
+[macronyx] Board (flop): ['Kd', '7h', '8h']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9257.0, '9': 1420.0, '12': 1537.0}
+[macronyx] Dealt: ['7d', '8h']  chips=1527.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1415.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['5c', '3c', '2h']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9277.0, '9': 1415.0, '12': 1522.0}
+[macronyx] Dealt: ['6c', '6c']  chips=1522.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9262.0
+[macronyx] yoga5 → call 20  chips=1375.0
+[macronyx] Board (flop): ['8d', '7c', '8s']  pot=75
+[macronyx] yoga5 → bet 5  chips=1370.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] Board (turn): ['8d', '7c', '8s', 'Ac']  pot=85
+[macronyx] yoga5 → bet 5  chips=1365.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] Board (river): ['8d', '7c', '8s', 'Ac', 'Jh']  pot=95
+[macronyx] yoga5 → bet 5  chips=1360.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] SHOWDOWN — winners: ['yoga5']  pot=105  best hand: Two Pair
+           yoga5: {'cards': ['9h', '9d'], 'hand': 'Two Pair', 'score': -2656125}
+           macronyx: {'cards': ['6c', '6c'], 'hand': 'Two Pair', 'score': -2585949}
+           Stacks: {'7': 9262.0, '9': 1465.0, '12': 1487.0}
+[macronyx] Dealt: ['9s', '4s']  chips=1467.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9257.0
+[macronyx] yoga5 → fold 5  chips=1450.0
+[macronyx] Board (flop): ['2c', '4c', 'Tc']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9257.0, '9': 1450.0, '12': 1507.0}
+[macronyx] Dealt: ['2c', '7s']  chips=1497.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1445.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['Kd', 'Kh', '3d']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9277.0, '9': 1445.0, '12': 1492.0}
+[macronyx] Dealt: ['6s', 'Ks']  chips=1492.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9262.0
+[macronyx] Board (flop): ['6h', 'Ts', 'Ac']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9262.0, '9': 1465.0, '12': 1487.0}
+[macronyx] Dealt: ['6c', 'Jh']  chips=1467.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9257.0
+[macronyx] yoga5 → fold 5  chips=1450.0
+[macronyx] Board (flop): ['Ks', '4h', 'Kh']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9257.0, '9': 1450.0, '12': 1507.0}
+[macronyx] Dealt: ['8d', '3c']  chips=1497.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1445.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['4s', 'Js', '2s']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9277.0, '9': 1445.0, '12': 1492.0}
+[macronyx] Dealt: ['9c', '7c']  chips=1492.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9262.0
+[macronyx] yoga5 → fold 5  chips=1420.0
+[macronyx] Board (flop): ['Tc', 'Th', '4c']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9262.0, '9': 1420.0, '12': 1532.0}
+[macronyx] Dealt: ['9h', '3h']  chips=1512.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9257.0
+[macronyx] yoga5 → fold 5  chips=1405.0
+[macronyx] Board (flop): ['Jc', '8c', 'Jc']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9257.0, '9': 1405.0, '12': 1552.0}
+[macronyx] Dealt: ['3d', '3s']  chips=1542.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1400.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9232.0
+[macronyx] Board (flop): ['Kc', 'Th', '7h']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9232.0, '9': 1400.0, '12': 1582.0}
+[macronyx] Dealt: ['Ts', '7c']  chips=1582.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9217.0
+[macronyx] Board (flop): ['Kc', '6s', '5s']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9217.0, '9': 1420.0, '12': 1577.0}
+[macronyx] Dealt: ['7s', '8h']  chips=1557.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9212.0
+[macronyx] yoga5 → fold 5  chips=1405.0
+[macronyx] Board (flop): ['Kc', '9h', '3s']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9212.0, '9': 1405.0, '12': 1597.0}
+[macronyx] Dealt: ['2h', 'Ks']  chips=1587.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1400.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['7h', 'Qd', 'Qh']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9232.0, '9': 1400.0, '12': 1582.0}
+[macronyx] Dealt: ['As', '3d']  chips=1582.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9217.0
+[macronyx] Board (flop): ['9d', '8s', 'Ts']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9217.0, '9': 1420.0, '12': 1577.0}
+[macronyx] Dealt: ['2c', '4c']  chips=1557.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9212.0
+[macronyx] yoga5 → fold 5  chips=1405.0
+[macronyx] Board (flop): ['Jh', '3d', 'Kh']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9212.0, '9': 1405.0, '12': 1597.0}
+[macronyx] Dealt: ['Qs', '7d']  chips=1587.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1400.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['8d', '3d', 'Qc']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9232.0, '9': 1400.0, '12': 1582.0}
+[macronyx] Dealt: ['Qc', 'Ac']  chips=1582.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9217.0
+[macronyx] yoga5 → fold 5  chips=1375.0
+[macronyx] Board (flop): ['Td', '6s', '9c']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9217.0, '9': 1375.0, '12': 1622.0}
+[macronyx] Dealt: ['9h', '7c']  chips=1602.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9212.0
+[macronyx] yoga5 → fold 5  chips=1360.0
+[macronyx] Board (flop): ['9d', '7d', '5h']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9212.0, '9': 1360.0, '12': 1642.0}
+[macronyx] Dealt: ['Qd', '3c']  chips=1632.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1355.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['6d', '4c', '3s']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9232.0, '9': 1355.0, '12': 1627.0}
+[macronyx] Dealt: ['3d', '5s']  chips=1627.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9217.0
+[macronyx] Board (flop): ['Kh', 'Qh', '4h']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9217.0, '9': 1375.0, '12': 1622.0}
+[macronyx] Dealt: ['Qs', 'Js']  chips=1602.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9212.0
+[macronyx] yoga5 → fold 5  chips=1360.0
+[macronyx] Board (flop): ['6s', '2d', 'Qc']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9212.0, '9': 1360.0, '12': 1642.0}
+[macronyx] Dealt: ['9s', '5h']  chips=1632.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1355.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['Jh', '6c', 'Ah']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9232.0, '9': 1355.0, '12': 1627.0}
+[macronyx] Dealt: ['7c', '8c']  chips=1627.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9217.0
+[macronyx] yoga5 → fold 5  chips=1330.0
+[macronyx] Board (flop): ['Ad', 'Kh', '5c']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9217.0, '9': 1330.0, '12': 1667.0}
+[macronyx] Dealt: ['2s', '8c']  chips=1647.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9212.0
+[macronyx] yoga5 → fold 5  chips=1315.0
+[macronyx] Board (flop): ['Qc', 'Ah', 'Qs']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9212.0, '9': 1315.0, '12': 1687.0}
+[macronyx] Dealt: ['9c', 'Qh']  chips=1677.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1310.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9187.0
+[macronyx] Board (flop): ['As', 'Kh', 'Ad']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9187.0, '9': 1310.0, '12': 1717.0}
+[macronyx] Dealt: ['5h', 'Ks']  chips=1717.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9172.0
+[macronyx] Board (flop): ['5c', '9h', 'Jc']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9172.0, '9': 1330.0, '12': 1712.0}
+[macronyx] Dealt: ['5d', '3s']  chips=1692.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9167.0
+[macronyx] yoga5 → fold 5  chips=1315.0
+[macronyx] Board (flop): ['7c', '8h', 'Jc']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9167.0, '9': 1315.0, '12': 1732.0}
+[macronyx] Dealt: ['4d', '2h']  chips=1722.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1310.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['9s', 'Kh', 'Kh']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9187.0, '9': 1310.0, '12': 1717.0}
+[macronyx] Dealt: ['2d', '3c']  chips=1717.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9172.0
+[macronyx] Board (flop): ['7h', '6s', 'Js']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9172.0, '9': 1330.0, '12': 1712.0}
+[macronyx] Dealt: ['Td', 'As']  chips=1692.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9167.0
+[macronyx] yoga5 → fold 5  chips=1315.0
+[macronyx] Board (flop): ['Ks', '8d', '2c']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9167.0, '9': 1315.0, '12': 1732.0}
+[macronyx] Dealt: ['Jh', 'Qd']  chips=1722.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1310.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9142.0
+[macronyx] Board (flop): ['9h', '3h', 'Kc']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9142.0, '9': 1310.0, '12': 1762.0}
+[macronyx] Dealt: ['Ks', '6s']  chips=1762.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9127.0
+[macronyx] Board (flop): ['5h', 'Kc', 'Qd']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9127.0, '9': 1330.0, '12': 1757.0}
+[macronyx] Dealt: ['6h', 'Ks']  chips=1737.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9122.0
+[macronyx] yoga5 → fold 5  chips=1315.0
+[macronyx] Board (flop): ['3c', 'Qc', 'Jc']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9122.0, '9': 1315.0, '12': 1777.0}
+[macronyx] Dealt: ['3d', 'Qc']  chips=1767.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1310.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['4c', 'Kc', '3h']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9142.0, '9': 1310.0, '12': 1762.0}
+[macronyx] Dealt: ['9h', '6d']  chips=1762.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9127.0
+[macronyx] Board (flop): ['3s', 'Ah', '4h']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9127.0, '9': 1330.0, '12': 1757.0}
+[macronyx] Dealt: ['4d', 'Tc']  chips=1737.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9122.0
+[macronyx] yoga5 → fold 5  chips=1315.0
+[macronyx] Board (flop): ['2d', '4s', '7c']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9122.0, '9': 1315.0, '12': 1777.0}
+[macronyx] Dealt: ['Ah', '2s']  chips=1767.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1310.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['5s', '6d', '4d']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9142.0, '9': 1310.0, '12': 1762.0}
+[macronyx] Dealt: ['5s', 'Ks']  chips=1762.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9127.0
+[macronyx] Board (flop): ['6h', '3c', 'Qs']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9127.0, '9': 1330.0, '12': 1757.0}
+[macronyx] Dealt: ['Tc', '6c']  chips=1737.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9122.0
+[macronyx] yoga5 → fold 5  chips=1315.0
+[macronyx] Board (flop): ['5h', '3s', 'Th']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9122.0, '9': 1315.0, '12': 1777.0}
+[macronyx] Dealt: ['7d', '4h']  chips=1767.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1310.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['4d', '4s', 'As']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9142.0, '9': 1310.0, '12': 1762.0}
+[macronyx] Dealt: ['Ac', '7h']  chips=1762.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9127.0
+[macronyx] Board (flop): ['Js', 'Ad', 'Qh']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9127.0, '9': 1330.0, '12': 1757.0}
+[macronyx] Dealt: ['Ac', '6h']  chips=1737.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9122.0
+[macronyx] yoga5 → fold 5  chips=1315.0
+[macronyx] Board (flop): ['5c', '8s', '6c']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9122.0, '9': 1315.0, '12': 1777.0}
+[macronyx] Dealt: ['Th', 'Qc']  chips=1767.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1310.0
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9097.0
+[macronyx] Board (flop): ['Ac', 'Ah', 'Qs']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9097.0, '9': 1310.0, '12': 1807.0}
+[macronyx] Dealt: ['2d', '9h']  chips=1807.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9082.0
+[macronyx] Board (flop): ['2s', '6h', '5d']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9082.0, '9': 1330.0, '12': 1802.0}
+[macronyx] Dealt: ['2h', '6d']  chips=1782.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9077.0
+[macronyx] yoga5 → fold 5  chips=1315.0
+[macronyx] Board (flop): ['5s', '6c', '8h']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9077.0, '9': 1315.0, '12': 1822.0}
+[macronyx] Dealt: ['7s', '5h']  chips=1812.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1310.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['3c', '5h', '4h']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9097.0, '9': 1310.0, '12': 1807.0}
+[macronyx] Dealt: ['4c', '7s']  chips=1807.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9082.0
+[macronyx] Board (flop): ['9d', '7d', '7s']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9082.0, '9': 1330.0, '12': 1802.0}
+[macronyx] Dealt: ['3s', '3s']  chips=1782.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9077.0
+[macronyx] yoga5 → fold 5  chips=1315.0
+[macronyx] Board (flop): ['2c', '9d', 'Qs']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9077.0, '9': 1315.0, '12': 1822.0}
+[macronyx] Dealt: ['2s', '4d']  chips=1812.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1310.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['4s', 'Kh', 'Tc']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9097.0, '9': 1310.0, '12': 1807.0}
+[macronyx] Dealt: ['4d', '4c']  chips=1807.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'call'}
+[macronyx] yoga3 → fold 5  chips=9082.0
+[macronyx] yoga5 → fold 5  chips=1285.0
+[macronyx] Board (flop): ['2s', '3s', '8c']  pot=60
+[macronyx] macronyx wins pot=60 (everyone_folded)
+           Stacks: {'7': 9082.0, '9': 1285.0, '12': 1847.0}
+[macronyx] Dealt: ['Ah', '2d']  chips=1827.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9077.0
+[macronyx] yoga5 → raise 40.0  chips=1235.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['Js', 'Jd', 'Ts']  pot=80.0
+[macronyx] yoga5 wins pot=80.0 (everyone_folded)
+           Stacks: {'7': 9077.0, '9': 1315.0, '12': 1822.0}
+[macronyx] Dealt: ['4c', '8s']  chips=1812.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1310.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['Td', '4h', '5d']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9097.0, '9': 1310.0, '12': 1807.0}
+[macronyx] Dealt: ['Jd', '8h']  chips=1807.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9082.0
+[macronyx] Board (flop): ['Qs', '2d', '6d']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9082.0, '9': 1330.0, '12': 1802.0}
+[macronyx] Dealt: ['4c', 'Ad']  chips=1782.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9077.0
+[macronyx] yoga5 → fold 5  chips=1315.0
+[macronyx] Board (flop): ['2d', 'Ah', '3s']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9077.0, '9': 1315.0, '12': 1822.0}
+[macronyx] Dealt: ['2d', '3c']  chips=1812.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1310.0
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Board (flop): ['Tc', 'Jc', '2h']  pot=40
+[macronyx] yoga3 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9097.0, '9': 1310.0, '12': 1807.0}
+[macronyx] Dealt: ['Ad', '3c']  chips=1807.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] yoga3 → fold 5  chips=9082.0
+[macronyx] Board (flop): ['3d', 'Qh', '3h']  pot=40
+[macronyx] yoga5 wins pot=40 (everyone_folded)
+           Stacks: {'7': 9082.0, '9': 1330.0, '12': 1802.0}
+[macronyx] Dealt: ['Jh', 'Ac']  chips=1782.0  pot=30
+[macronyx] ── New hand ── dealer=yoga3  sb=yoga5  bb=macronyx
+[macronyx] yoga3 → fold 5  chips=9077.0
+[macronyx] yoga5 → fold 5  chips=1315.0
+[macronyx] Board (flop): ['4d', 'Qs', '5h']  pot=40
+[macronyx] macronyx wins pot=40 (everyone_folded)
+           Stacks: {'7': 9077.0, '9': 1315.0, '12': 1822.0}
+[macronyx] Dealt: ['Jh', 'Js']  chips=1812.0  pot=30
+[macronyx] ── New hand ── dealer=yoga5  sb=macronyx  bb=yoga3
+[macronyx] yoga5 → fold 5  chips=1310.0
+[macronyx] Action → {'action': 'raise', 'amount': 62}
+[macronyx] yoga3 → fold 5  chips=9052.0
+[macronyx] Board (flop): ['Jd', 'Ac', 'Th']  pot=102.0
+[macronyx] macronyx wins pot=102.0 (everyone_folded)
+           Stacks: {'7': 9052.0, '9': 1310.0, '12': 1852.0}
+[macronyx] Dealt: ['7d', '6c']  chips=1852.0  pot=30
+[macronyx] ── New hand ── dealer=macronyx  sb=yoga3  bb=yoga5
+[macronyx] Action → {'action': 'fold'}
+[macronyx] Server disconnected.
+PS C:\Users\pinom\projects\poker_server\bots>
